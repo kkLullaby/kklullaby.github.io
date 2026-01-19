@@ -1,0 +1,5 @@
+{{- /* Bubble Terms Animation Script */ -}}
+{{ if or (eq .Type "tags") (eq .Type "categories") }}
+    {{ $bubbleJS := resources.Get "js/bubble-animation.js" | minify }}
+    <script src="{{ $bubbleJS.RelPermalink }}"></script>
+{{ end }}

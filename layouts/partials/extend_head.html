@@ -1,0 +1,5 @@
+{{- /* Bubble Terms CSS */ -}}
+{{ if or (eq .Type "tags") (eq .Type "categories") }}
+    {{ $bubbleCSS := resources.Get "css/extended/bubble-terms.css" | minify }}
+    <link rel="stylesheet" href="{{ $bubbleCSS.RelPermalink }}">
+{{ end }}
