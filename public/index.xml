@@ -1,11 +1,184 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>kkMarf&#39;s Blog</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on kkMarf&#39;s Blog</description>
     <generator>Hugo -- 0.154.5</generator>
-    <language>en-us</language>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 19 Jan 2026 18:52:37 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World - My first blog post</title>
+      <link>http://localhost:1313/posts/test/</link>
+      <pubDate>Mon, 19 Jan 2026 12:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/test/</guid>
+      <description>&lt;h2 id=&#34;-你好世界&#34;&gt;👋 你好，世界&lt;/h2&gt;
+&lt;p&gt;歪歪歪，anybody hear me? （清清喉咙）我要开始在互联网上的一个固定阵地发布我的观点和留下足迹了。&lt;/p&gt;
+&lt;h3 id=&#34;为什么要写博客&#34;&gt;为什么要写博客？&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;📝 记录学习过程和技术心得&lt;/li&gt;
+&lt;li&gt;🤝 与他人分享知识和经验&lt;/li&gt;
+&lt;li&gt;💭 整理思路，深化理解&lt;/li&gt;
+&lt;li&gt;🌱 见证自己的成长轨迹&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;博客内容规划&#34;&gt;博客内容规划&lt;/h3&gt;
+&lt;p&gt;在这个博客中，我计划分享：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;技术文章&lt;/strong&gt; - 分享学习新技术路上的踩坑经历&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;学习笔记&lt;/strong&gt; - 学习新知识的记录和总结&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;问题解决&lt;/strong&gt; - 遇到问题的解决过程，寻找系统性的思维构建方案&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;生活感悟&lt;/strong&gt; - 学习和生活的思考&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;一些展望&#34;&gt;一些展望&lt;/h3&gt;
+&lt;p&gt;希望通过写博客，能够：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;提升自己的技术能力&lt;/li&gt;
+&lt;li&gt;帮助到有需要的人&lt;/li&gt;
+&lt;li&gt;结识更多志同道合的朋友&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;希望能和各位一起成长hh&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;to be continue(一阵强劲的音乐响起)&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linux 基础学习指南 (aigc自用)</title>
+      <link>http://localhost:1313/posts/linux-learning/</link>
+      <pubDate>Mon, 19 Jan 2026 18:52:37 +0800</pubDate>
+      <guid>http://localhost:1313/posts/linux-learning/</guid>
+      <description>Linux 系统基础知识学习指南，适合初学者</description>
+    </item>
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 19 Jan 2026 12:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h2 id=&#34;-你好我是-kaifeng-li-kklullaby&#34;&gt;👋 你好，我是 Kaifeng Li (kkLullaby)&lt;/h2&gt;
+&lt;p&gt;欢迎来到我的个人博客！&lt;/p&gt;
+&lt;h3 id=&#34;-关于我&#34;&gt;🎯 关于我&lt;/h3&gt;
+&lt;p&gt;enfp, 大湾区大学首届本科生，一名热爱探索新鲜技术的小白，尚且保留着一些少年的天真，喜欢通过ai解决生活里面的有趣问题，乐于结交新朋友。（以上这些tag远不是我的全部！）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;目前关注的技术领域：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;💻 Linux 系统的操作&lt;/li&gt;
+&lt;li&gt;🌐 Web 开发技术，通过vc构建有意思的应用&lt;/li&gt;
+&lt;li&gt;🛠️ 开发工具与效率提升，在github上面部署有意思的项目&lt;/li&gt;
+&lt;li&gt;📚 AI时代的系统性思维构建（inspired by 徐志伟老师）&lt;/li&gt;
+&lt;li&gt;⚙️ 具身智能的未来发展方向&lt;/li&gt;
+&lt;li&gt;💰 市场分析和量化交易（已经构建了一个n8n新闻工作流）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-我喜欢&#34;&gt;🎨 我喜欢？&lt;/h3&gt;
+&lt;p&gt;将光阴消耗在：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;📖 &lt;strong&gt;阅读&lt;/strong&gt; - 喜欢阅读文学类书籍，最近逐步探索宝藏技术博客（遇到有意思的博客会贴在友链里面😄）&lt;/li&gt;
+&lt;li&gt;🎮 &lt;strong&gt;游戏&lt;/strong&gt; - 瓦罗兰特休闲玩家，单机游戏ed症患者&lt;/li&gt;
+&lt;li&gt;🏃 &lt;strong&gt;运动&lt;/strong&gt; - 在学校设施贫瘠的健身房里面撸铁，在ssl骑行，and of course &amp;ndash; Pingpong!&lt;/li&gt;
+&lt;li&gt;📽️ &lt;strong&gt;电影&lt;/strong&gt; - 从小众闷片转向博爱观影中，最近偏爱喜剧片&lt;/li&gt;
+&lt;li&gt;⚙️ &lt;strong&gt;机器人&lt;/strong&gt; - 湾大驭浪者机器人社团首批成员，抱组长大腿学习电控知识中&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-我了解过什么技能&#34;&gt;💼 我了解过什么技能？&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;操作系统: Linux, Windows
+编程语言: Python, JavaScript, Shell （只会一点皮毛hh, 在ai时代探索vibe coding的可能性）
+开发工具: Git, VSCode, Docker, Keil5, cubemx
+玩过的小工具和开源项目：dify,n8n,
+其他技能: 持续学习中...
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;-这个博客我要分享什么&#34;&gt;📝 这个博客我要分享什么？&lt;/h3&gt;
+&lt;p&gt;在这个博客中，我主要分享：&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>友情链接</title>
+      <link>http://localhost:1313/links/</link>
+      <pubDate>Mon, 19 Jan 2026 12:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/links/</guid>
+      <description>&lt;h2 id=&#34;-友情链接&#34;&gt;🔗 友情链接&lt;/h2&gt;
+&lt;p&gt;这里收录了一些优秀的博客和网站，推荐给大家。（也算是我的个人博客收藏夹啦☺️）&lt;/p&gt;
+&lt;h3 id=&#34;技术博客&#34;&gt;技术博客&lt;/h3&gt;
+
+&lt;div class=&#34;friend-links&#34;&gt;
+  &lt;div class=&#34;friend-link-item&#34;&gt;
+    &lt;h3&gt;🌟 &lt;a href=&#34;https://vinthony.github.io/&#34; target=&#34;_blank&#34;&gt;Shadow Cun 的个人主页&lt;/a&gt;&lt;/h3&gt;
+    &lt;p&gt;我的老师的个人主页，感谢寸老师将我拉到湾大，恩情难忘！&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;friend-link-item&#34;&gt;
+    &lt;h3&gt;🌟 &lt;a href=&#34;https://space.bilibili.com/14145636&#34; target=&#34;_blank&#34;&gt;Neil的B站主页&lt;/a&gt;&lt;/h3&gt;
+    &lt;p&gt;从刚上高中的时候就开始关注Neil了，他的成长轨迹也是我的榜样&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;friend-link-item&#34;&gt;
+    &lt;h3&gt;🌟 &lt;a href=&#34;https://space.bilibili.com/508452265?spm_id_from=333.337.0.0&#34; target=&#34;_blank&#34;&gt;硅谷101的B站主页&lt;/a&gt;&lt;/h3&gt;
+    &lt;p&gt;永远能激起我浅探一个技术领域的兴趣&lt;/p&gt;
+  &lt;/div&gt;
+  
+  &lt;!-- 更多友链请在下方添加 --&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+.friend-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.friend-link-item {
+  padding: 20px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  background: var(--entry);
+}
+
+.friend-link-item:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.friend-link-item h3 {
+  margin: 0 0 10px 0;
+  font-size: 1.1em;
+}
+
+.friend-link-item h3 a {
+  text-decoration: none;
+  color: var(--primary);
+}
+
+.friend-link-item p {
+  margin: 0;
+  color: var(--secondary);
+  font-size: 0.9em;
+}
+&lt;/style&gt;
+
+&lt;hr&gt;
+&lt;h2 id=&#34;-申请友链&#34;&gt;📮 申请友链&lt;/h2&gt;
+&lt;p&gt;如果你也有博客，欢迎与我交换友链！&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>技术专栏</title>
+      <link>http://localhost:1313/columns/</link>
+      <pubDate>Mon, 19 Jan 2026 12:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/columns/</guid>
+      <description>按照不同主题分类的技术文章合集</description>
+    </item>
+    <item>
+      <title>Git 常用命令速查表 (aigc自用)</title>
+      <link>http://localhost:1313/posts/git-cheatsheet/</link>
+      <pubDate>Thu, 15 Jan 2026 14:30:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/git-cheatsheet/</guid>
+      <description>整理常用的 Git 命令，快速查阅使用</description>
+    </item>
+    <item>
+      <title>Docker 入门实战教程 (aigc自用)</title>
+      <link>http://localhost:1313/posts/docker-tutorial/</link>
+      <pubDate>Mon, 12 Jan 2026 10:20:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/docker-tutorial/</guid>
+      <description>Docker 容器技术入门教程，从安装到实战</description>
+    </item>
+    <item>
+      <title>VSCode 必备插件推荐 2026</title>
+      <link>http://localhost:1313/posts/vscode-plugins/</link>
+      <pubDate>Sat, 10 Jan 2026 16:45:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/vscode-plugins/</guid>
+      <description>分享 2026 年最实用的 VSCode 插件，提升开发效率</description>
+    </item>
   </channel>
 </rss>

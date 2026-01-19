@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>生活 on kkMarf&#39;s Blog</title>
+    <link>http://localhost:1313/categories/%E7%94%9F%E6%B4%BB/</link>
+    <description>Recent content in 生活 on kkMarf&#39;s Blog</description>
+    <generator>Hugo -- 0.154.5</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 19 Jan 2026 12:00:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/%E7%94%9F%E6%B4%BB/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World - My first blog post</title>
+      <link>http://localhost:1313/posts/test/</link>
+      <pubDate>Mon, 19 Jan 2026 12:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/test/</guid>
+      <description>&lt;h2 id=&#34;-你好世界&#34;&gt;👋 你好，世界&lt;/h2&gt;
+&lt;p&gt;歪歪歪，anybody hear me? （清清喉咙）我要开始在互联网上的一个固定阵地发布我的观点和留下足迹了。&lt;/p&gt;
+&lt;h3 id=&#34;为什么要写博客&#34;&gt;为什么要写博客？&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;📝 记录学习过程和技术心得&lt;/li&gt;
+&lt;li&gt;🤝 与他人分享知识和经验&lt;/li&gt;
+&lt;li&gt;💭 整理思路，深化理解&lt;/li&gt;
+&lt;li&gt;🌱 见证自己的成长轨迹&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;博客内容规划&#34;&gt;博客内容规划&lt;/h3&gt;
+&lt;p&gt;在这个博客中，我计划分享：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;技术文章&lt;/strong&gt; - 分享学习新技术路上的踩坑经历&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;学习笔记&lt;/strong&gt; - 学习新知识的记录和总结&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;问题解决&lt;/strong&gt; - 遇到问题的解决过程，寻找系统性的思维构建方案&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;生活感悟&lt;/strong&gt; - 学习和生活的思考&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;一些展望&#34;&gt;一些展望&lt;/h3&gt;
+&lt;p&gt;希望通过写博客，能够：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;提升自己的技术能力&lt;/li&gt;
+&lt;li&gt;帮助到有需要的人&lt;/li&gt;
+&lt;li&gt;结识更多志同道合的朋友&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;希望能和各位一起成长hh&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;to be continue(一阵强劲的音乐响起)&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

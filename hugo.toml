@@ -2,7 +2,6 @@ baseURL = "https://kkmarf.github.io/"
 languageCode = "zh-cn"
 title = "kkMarf's Blog"
 theme = "PaperMod"
-paginate = 10
 enableRobotsTXT = true
 buildDrafts = false
 buildFuture = false
@@ -41,8 +40,8 @@ enableEmoji = true
 
   # 首页信息
   [params.homeInfoParams]
-    Title = "欢迎来到我的博客 👋"
-    Content = "探索技术的魅力，分享生活的美好。这里记录着我的学习历程、技术心得和生活感悟。"
+    Title = "欢迎来到我的互联网自留地 👋"
+    Content = "这个小站是我--探索世界无限可能，分享生活的美好的地方，记录着我的学习历程、技术心得和生活感悟。"
 
   # 社交图标
   [[params.socialIcons]]
@@ -51,7 +50,7 @@ enableEmoji = true
 
   [[params.socialIcons]]
     name = "email"
-    url = "mailto:your-email@example.com"
+    url = "mailto:lkf1234567i@gmail.com"
 
   [[params.socialIcons]]
     name = "rss"

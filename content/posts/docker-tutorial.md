@@ -3,8 +3,8 @@ title: "Docker 入门实战教程 (aigc自用)"
 date: 2026-01-12T10:20:00+08:00
 draft: false
 author: "Claude4.5 opus"
-categories: ["开发工具", "学习笔记"]
-tags: ["Docker", "容器", "DevOps"]
+categories: ["开发工具", "学习笔记", "aigc"]
+tags: ["Docker", "容器", "DevOps", "aigc"]
 description: "Docker 容器技术入门教程，从安装到实战"
 summary: "学习 Docker 容器技术，掌握现代化应用部署方式"
 ---

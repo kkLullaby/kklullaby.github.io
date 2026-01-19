@@ -3,8 +3,8 @@ title: "Linux 基础学习指南 (aigc自用)"
 date: 2026-01-19T18:52:37+08:00
 draft: false
 author: "Claude4.5 opus"
-categories: ["Linux", "学习笔记"]
-tags: ["Linux", "教程", "基础"]
+categories: ["Linux", "学习笔记", "aigc"]
+tags: ["Linux", "教程", "基础", "aigc"]
 description: "Linux 系统基础知识学习指南，适合初学者"
 summary: "从零开始学习 Linux，掌握基本命令和系统操作"
 cover:

@@ -3,8 +3,8 @@ title: "Git 常用命令速查表 (aigc自用)"
 date: 2026-01-15T14:30:00+08:00
 draft: false
 author: "Claude4.5 opus"
-categories: ["开发工具", "学习笔记"]
-tags: ["Git", "版本控制", "速查表"]
+categories: ["开发工具", "学习笔记", "aigc"]
+tags: ["Git", "版本控制", "速查表", "aigc"]
 description: "整理常用的 Git 命令，快速查阅使用"
 summary: "Git 日常使用的命令速查，提高开发效率"
 ---

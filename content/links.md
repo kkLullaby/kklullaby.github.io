@@ -8,15 +8,23 @@ comments: false
 
 ## 🔗 友情链接
 
-这里收录了一些优秀的博客和网站，推荐给大家。
+这里收录了一些优秀的博客和网站，推荐给大家。（也算是我的个人博客收藏夹啦☺️）
 
 ### 技术博客
 
 {{< rawhtml >}}
 <div class="friend-links">
   <div class="friend-link-item">
-    <h3>🌟 <a href="https://example.com" target="_blank">示例博客</a></h3>
-    <p>一个很棒的技术博客</p>
+    <h3>🌟 <a href="https://vinthony.github.io/" target="_blank">Shadow Cun 的个人主页</a></h3>
+    <p>我的老师的个人主页，感谢寸老师将我拉到湾大，恩情难忘！</p>
+  </div>
+  <div class="friend-link-item">
+    <h3>🌟 <a href="https://space.bilibili.com/14145636" target="_blank">Neil的B站主页</a></h3>
+    <p>从刚上高中的时候就开始关注Neil了，他的成长轨迹也是我的榜样</p>
+  </div>
+  <div class="friend-link-item">
+    <h3>🌟 <a href="https://space.bilibili.com/508452265?spm_id_from=333.337.0.0" target="_blank">硅谷101的B站主页</a></h3>
+    <p>永远能激起我浅探一个技术领域的兴趣</p>
   </div>
   
   <!-- 更多友链请在下方添加 -->
