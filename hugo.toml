@@ -1,13 +1,151 @@
 baseURL = "https://kkmarf.github.io/"
 languageCode = "zh-cn"
-title = "kkMarf Blog"
+title = "kkMarf's Blog"
 theme = "PaperMod"
+paginate = 10
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+enableEmoji = true
+
+[minify]
+  disableXML = true
+  minifyOutput = true
 
 [params]
+  env = "production"
+  title = "kkMarf's Blog"
+  description = "一个专注于技术分享与生活感悟的个人博客"
+  keywords = ["Blog", "技术博客", "生活", "学习笔记"]
+  author = "kkMarf"
+  
+  # 主题设置
   defaultTheme = "auto"
+  disableThemeToggle = false
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+  disableSpecial1stPost = false
+  disableScrollToTop = false
+  comments = false
+  hidemeta = false
+  hideSummary = false
+  showtoc = true
+  tocopen = false
 
+  # 首页信息
+  [params.homeInfoParams]
+    Title = "欢迎来到我的博客 👋"
+    Content = "探索技术的魅力，分享生活的美好。这里记录着我的学习历程、技术心得和生活感悟。"
+
+  # 社交图标
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/kkmarf"
+
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:your-email@example.com"
+
+  [[params.socialIcons]]
+    name = "rss"
+    url = "/index.xml"
+
+  # 封面图片设置
+  [params.cover]
+    hidden = false
+    hiddenInList = false
+    hiddenInSingle = false
+
+  # 编辑建议
+  [params.editPost]
+    URL = "https://github.com/kkmarf/kkmarf.github.io/tree/main/content"
+    Text = "建议修改"
+    appendFilePath = true
+
+  # 分析
+  [params.analytics]
+    google.SiteVerificationTag = ""
+
+  # 搜索设置
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    location = 0
+    distance = 1000
+    threshold = 0.4
+    minMatchCharLength = 0
+    keys = ["title", "permalink", "summary", "content"]
+
+# 菜单配置
 [menu]
   [[menu.main]]
-    name = "Archive"
-    url = "/archives/"
+    identifier = "home"
+    name = "🏠 首页"
+    url = "/"
     weight = 10
+
+  [[menu.main]]
+    identifier = "search"
+    name = "🔍 搜索"
+    url = "/search/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "archives"
+    name = "📚 归档"
+    url = "/archives/"
+    weight = 30
+
+  [[menu.main]]
+    identifier = "categories"
+    name = "📂 专栏"
+    url = "/categories/"
+    weight = 40
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "🏷️ 标签"
+    url = "/tags/"
+    weight = 50
+
+  [[menu.main]]
+    identifier = "about"
+    name = "👤 关于"
+    url = "/about/"
+    weight = 60
+
+  [[menu.main]]
+    identifier = "links"
+    name = "🔗 友链"
+    url = "/links/"
+    weight = 70
+
+# 输出格式
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+# 分类设置
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
+# Markdown 设置
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    lineNos = false
+    noClasses = false
+    style = "monokai"
