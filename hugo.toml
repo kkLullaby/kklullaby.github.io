@@ -1,4 +1,54 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'PaperMod'
+baseURL = 'https://kkmarf.github.io/'
+languageCode = 'zh-cn'
+title = "kkMarf's Blog"
+theme = "PaperMod"
+
+# 允许使用原生 HTML (为了灵活性)
+enableInlineShortcodes = true
+
+[params]
+  defaultTheme = "auto" # 跟随系统深色模式
+  ShowShareButtons = true # 底部显示分享按钮
+  ShowReadingTime = true # 显示阅读时间
+  ShowBreadCrumbs = true # 显示面包屑导航
+  ShowCodeCopyButtons = true # 代码块显示复制按钮
+
+  # 首页简介 (Profile Mode)
+  [params.profileMode]
+    enabled = true
+    title = "👋 Hello, I'm kkMarf"
+    subtitle = "CS Undergraduate | Robotics | Ubuntu Lover"
+    description = "记录个人成长，探索科技与文化的边界。"
+    
+    # 社交链接 (你可以后续修改成你自己的)
+    [[params.profileMode.buttons]]
+      name = "GitHub"
+      url = "https://github.com/kkmarf"
+    [[params.profileMode.buttons]]
+      name = "Email"
+      url = "mailto:your-email@example.com"
+
+  # 开启数学公式支持 (MathJax)
+  [params.assets]
+    disableHLJS = true # 禁用默认高亮，使用下面的 Chroma
+  
+# 代码高亮设置
+[markup]
+  [markup.highlight]
+    noClasses = false
+  [markup.goldmark.renderer]
+    unsafe = true # 允许 Markdown 里写 HTML
+
+# 顶部导航栏
+[[menu.main]]
+  identifier = "archives"
+  name = "归档"
+  url = "/archives/"
+  weight = 10
+[[menu.main]]
+  identifier = "search"
+  name = "搜索"
+  url = "/search/"
+  weight = 20
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
