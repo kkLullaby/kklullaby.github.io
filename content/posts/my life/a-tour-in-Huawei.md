@@ -4,7 +4,7 @@ date: 2026-01-20T10:00:00+08:00
 tags: ["华为", "游记"] 
 author: kkLullaby
 categories: ["生活", "旧文"]
-draft: true
+draft: false
 ---
 
 # 华为小镇半日游
