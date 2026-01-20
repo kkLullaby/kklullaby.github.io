@@ -1,9 +1,9 @@
 ---
 title: "旧文其二：华为游记"
 date: 2026-01-20T10:00:00+08:00
-tag: ["华为", "游记"] 
-auther: kkLullaby
-catagories: ["生活", "旧文"]
+tags: ["华为", "游记"] 
+author: kkLullaby
+categories: ["生活", "旧文"]
 draft: true
 ---
 
