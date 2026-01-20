@@ -1,7 +1,7 @@
 ---
 title: "旧文其一：来到湾大一个月的感想"
 date: 2026-01-19T23:00:00+08:00
-draft: true
+draft: false
 auther: kkLullaby
 catagories: ["生活", "旧文"]
 tag: ["大学生活", "回忆录"]
