@@ -5,14 +5,50 @@
     <loc>http://localhost:1313/posts/my-life/test/</loc>
     <lastmod>2026-01-19T12:00:00+08:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2026-01-27T10:00:00+08:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-01-20T10:00:00+08:00</lastmod>
+    <lastmod>2026-01-27T10:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2026-01-27T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-01-27T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/vc/</loc>
+    <lastmod>2026-01-27T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/something_about_tech/first_time_vibe_coding/</loc>
+    <lastmod>2026-01-27T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/%E7%A7%91%E6%8A%80/</loc>
+    <lastmod>2026-01-27T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/%E8%82%A1%E5%B8%82/</loc>
+    <lastmod>2026-01-27T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/%E5%8D%8E%E4%B8%BA/</loc>
+    <lastmod>2026-01-20T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/%E6%97%A7%E6%96%87/</loc>
     <lastmod>2026-01-20T10:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/my-life/a-tour-in-huawei/</loc>
     <lastmod>2026-01-20T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/%E6%B8%B8%E8%AE%B0/</loc>
+    <lastmod>2026-01-20T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2026-01-20T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/%E5%9B%9E%E5%BF%86%E5%BD%95/</loc>
+    <lastmod>2026-01-19T23:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2026-01-19T23:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/my-life/first-time-in-university/</loc>
     <lastmod>2026-01-19T23:00:00+08:00</lastmod>
@@ -23,9 +59,6 @@
     <loc>http://localhost:1313/tags/aigc/</loc>
     <lastmod>2026-01-19T18:52:37+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-01-19T18:52:37+08:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/linux/</loc>
     <lastmod>2026-01-19T18:52:37+08:00</lastmod>
   </url><url>
@@ -33,9 +66,6 @@
     <lastmod>2026-01-19T18:52:37+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/linux-learning/</loc>
-    <lastmod>2026-01-19T18:52:37+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2026-01-19T18:52:37+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/%E5%9F%BA%E7%A1%80/</loc>
@@ -54,9 +84,6 @@
     <lastmod>2026-01-19T12:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/columns/</loc>
-    <lastmod>2026-01-19T12:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2026-01-19T12:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/git/</loc>

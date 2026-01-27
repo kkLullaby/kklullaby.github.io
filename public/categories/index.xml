@@ -6,8 +6,15 @@
     <description>Recent content in Categories on kkLullaby&#39;s Blog</description>
     <generator>Hugo -- 0.154.5</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 20 Jan 2026 10:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 27 Jan 2026 10:00:00 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>科技</title>
+      <link>http://localhost:1313/categories/%E7%A7%91%E6%8A%80/</link>
+      <pubDate>Tue, 27 Jan 2026 10:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/categories/%E7%A7%91%E6%8A%80/</guid>
+      <description></description>
+    </item>
     <item>
       <title>旧文</title>
       <link>http://localhost:1313/categories/%E6%97%A7%E6%96%87/</link>

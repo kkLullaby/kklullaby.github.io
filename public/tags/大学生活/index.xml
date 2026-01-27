@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>大学生活 on kkLullaby&#39;s Blog</title>
+    <link>http://localhost:1313/tags/%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%B4%BB/</link>
+    <description>Recent content in 大学生活 on kkLullaby&#39;s Blog</description>
+    <generator>Hugo -- 0.154.5</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 19 Jan 2026 23:00:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%B4%BB/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>旧文其一：来到湾大一个月的感想</title>
+      <link>http://localhost:1313/posts/my-life/first-time-in-university/</link>
+      <pubDate>Mon, 19 Jan 2026 23:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/my-life/first-time-in-university/</guid>
+      <description>原题：关于我以超985分数，入读一所我填报志愿前从来没有听说过的学校的事</description>
+    </item>
+  </channel>
+</rss>
