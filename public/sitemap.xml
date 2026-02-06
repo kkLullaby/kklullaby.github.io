@@ -6,16 +6,25 @@
     <lastmod>2026-01-19T12:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-01-27T10:00:00+08:00</lastmod>
+    <lastmod>2026-02-04T10:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-01-27T10:00:00+08:00</lastmod>
+    <lastmod>2026-02-04T10:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2026-01-27T10:00:00+08:00</lastmod>
+    <lastmod>2026-02-04T10:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2026-01-27T10:00:00+08:00</lastmod>
+    <lastmod>2026-02-04T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/my-life/revisit_my_high_school/</loc>
+    <lastmod>2026-02-04T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2026-02-04T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2026-02-04T10:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/vc/</loc>
     <lastmod>2026-01-27T10:00:00+08:00</lastmod>
@@ -39,9 +48,6 @@
     <lastmod>2026-01-20T10:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/%E6%B8%B8%E8%AE%B0/</loc>
-    <lastmod>2026-01-20T10:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2026-01-20T10:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/%E5%9B%9E%E5%BF%86%E5%BD%95/</loc>

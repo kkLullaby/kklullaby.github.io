@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>生活 on kkLullaby&#39;s Blog</title>
+    <link>http://localhost:1313/tags/%E7%94%9F%E6%B4%BB/</link>
+    <description>Recent content in 生活 on kkLullaby&#39;s Blog</description>
+    <generator>Hugo -- 0.154.5</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 04 Feb 2026 10:00:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E7%94%9F%E6%B4%BB/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>在时间的河流里面刻舟求剑</title>
+      <link>http://localhost:1313/posts/my-life/revisit_my_high_school/</link>
+      <pubDate>Wed, 04 Feb 2026 10:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/my-life/revisit_my_high_school/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
