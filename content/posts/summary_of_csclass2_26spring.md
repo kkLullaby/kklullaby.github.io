@@ -35,8 +35,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
 ---
 ## 课件纵览与模块简述：
-![课件概述](posts/images/cs101_class2_summary/1.png)
-![课件回顾](posts/images/cs101_class2_summary/2.png)
+![课件概述](images/cs101_class2_summary/1.png)
+![课件回顾](images/cs101_class2_summary/2.png)
 
 ## 📍 模块一：从对象到函数抽象
 
@@ -50,11 +50,11 @@ document.addEventListener("DOMContentLoaded", function () {
     * 🔴 **不可变对象 (Immutable)：** [举例：String, Tuple 等，尝试修改会报什么错]
 
 ### 1.2 函数抽象的本质
-![课件引入](posts/images/cs101_class2_summary/4.png)
+![课件引入](images/cs101_class2_summary/4.png)
 * **从变量到函数的升维：**
     * **变量：** 赋名表达式 (Named Expression)，用**标识符**指代值。
     * **函数：** 赋名代码块 (Named Code Block)，用函数名指代逻辑，实现**一处定义，多处使用**。
-![课件引入](posts/images/cs101_class2_summary/7.png)
+![课件引入](images/cs101_class2_summary/7.png)
 * **优雅的错误处理 (Graceful Error Handling)：**
     * **代码范例：** 
     ``` python
@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", function () {
 ---
 
 ## 🧠 模块二：揭开黑盒：内存模型与逐步执行
-![课件引入](posts/images/cs101_class2_summary/6.png)
+![课件引入](images/cs101_class2_summary/6.png)
 
 ### 2.1 OS 四大内存段映射
 
@@ -104,15 +104,15 @@ show_obj(T[1], 11)
 show_obj(T, 13)
 ```
 
-![课件整理](posts/images/cs101_class2_summary/8.png)
+![课件整理](images/cs101_class2_summary/8.png)
 > 阶段一：全局初始化（变量即引用）
 * 观察： 赋值语句 L = [2, 3] 和 T = (L, 'Hi!') 执行后，栈区 (Stack) 创建了全局帧 (Global Frame) 。
 * 洞察： 变量本身不存储数据，只是作为引用 (Reference) 绑定到堆区 (Heap) 中实际创建的列表 (List) 和元组 (Tuple) 对象上 。
-![课件整理](posts/images/cs101_class2_summary/9.png)
+![课件整理](images/cs101_class2_summary/9.png)
 > 阶段二：函数调用与可变对象修改 (Mutable Object)
 * 观察： 调用 show_obj(L, 5) 时，栈区弹出了一个新的函数栈帧。此时局部变量 x 和全局变量 L 指向了堆区里的同一个列表对象 。
 * 洞察： 当执行 x.append(5) 时，由于列表是可变对象 (Mutable Object) ，堆区中的原对象被直接“原地”修改为 [2, 3, 5]，对象的标识符 (Identity/ID) 保持不变 。函数执行完毕返回后，该栈帧随之销毁 。
-![课件整理](posts/images/cs101_class2_summary/10.png)
+![课件整理](images/cs101_class2_summary/10.png)
 > 阶段三：不可变对象操作与崩溃 (Immutable Object)
 * 观察： 调用 show_obj(T[1], 11) 时，局部变量 x 指向了元组中的字符串对象 'Hi!' 。
 * 洞察： 尝试执行 append 时，由于字符串是不可变对象 (Immutable Object) ，它根本没有定义修改自身状态的操作。这直接触发了 AttributeError 异常，导致程序崩溃 (Program Crashes) 。这深刻揭示了对象类型 (Type) 严格规定了其允许执行的操作 。
@@ -125,12 +125,12 @@ show_obj(T, 13)
 * **基础情况 (Base Case)：** [记录类型的最简起步状态，例如空字符串 `''`]
 * **构造情况 (Constructor Case)：** [记录如何由简至繁构造复杂数据，例如在一个字符串前加上字符 `'u'` 变成 `'u' + s`]
 
-![课件问题引入](posts/images/cs101_class2_summary/11.png)
+![课件问题引入](images/cs101_class2_summary/11.png)
 
 ### 3.2 数学归纳法复习以及迁移到结构归纳法
 1. 高中数学回忆：什么是数学归纳法 (Mathematical Induction)？想象我们要向一个高中生解释如何推倒一列无限长的多米诺骨牌。我们不需要一块一块地去验证它们会不会倒，只需要在逻辑上保证两件事：**起步点（基础情况）：** 我能推倒第一块骨牌（即证明 $n=1$ 或 $n=0$ 时命题 $P(n)$ 成立）。
 **传递性（归纳步骤）：** 只要任意一块骨牌（第 $k$ 块）倒下，它必定能推倒下一块（第 $k+1$ 块）。即假设 $P(k)$ 成立，必然能推导出 $P(k+1)$ 成立。只要这两点确立，这列无限长的骨牌注定会全部倒下。这就是用来证明与自然数 (Natural Numbers) 相关命题的绝佳工具。
-![课件问题引入](posts/images/cs101_class2_summary/12.png)
+![课件问题引入](images/cs101_class2_summary/12.png)
 2. 认知升级：为什么计算机科学需要结构归纳法 (Structural Induction)？到了大学阶段，我们要处理的不再仅仅是一维的自然数，而是复杂的递归数据类型 (Recursive Data Types)（比如字符串、列表、树结构）。自然数是通过“+1”这个操作不断生长、向后延伸的；而字符串是通过“拼接字符”这个构造操作不断变长的。既然它们的“生长方式”底层都是递归的，我们自然可以把多米诺骨牌的逻辑平移过来。结构归纳法，本质上就是把数学归纳法中的“找下一个数字”，升级为“找下一步的构造器 (Constructor) 操作”。
 3. 核心概念一一对应对照表 (Mapping the Concepts)：为了深刻理解两者的等价关系，我们在写证明题时，必须在脑海中完成以下映射：
 
@@ -145,7 +145,7 @@ show_obj(T, 13)
 
 
 ### 3.3 结构归纳法证明模板
-![课件问题引入](posts/images/cs101_class2_summary/12.png)
+![课件问题引入](images/cs101_class2_summary/12.png)
 用于证明某谓词 $P(s)$ 对全体该数据类型的对象成立：
 1. **确定归纳假设：** 设定命题 $P(s)$ 为
 2. **证明基础情况：** 证明当 $s$ 处于 Base Case 时，$P(s)$ 成立。
@@ -157,16 +157,16 @@ show_obj(T, 13)
 详细学习笔记，请移步[]()
 
 ### 3.4 结构归纳法计算机智慧的总结
-![课件问题引入](posts/images/cs101_class2_summary/13.png)
+![课件问题引入](images/cs101_class2_summary/13.png)
 
 ---
 
 ## ⏱️ 模块四：性能评估把关：递推式与主方法 (Recurrence & Master Method)
 详细学习笔记，请移步[作者的blog](https://kklullaby.github.io/posts/master_theorem/)
-![课件问题引入](posts/images/cs101_class2_summary/15.png)
+![课件问题引入](images/cs101_class2_summary/15.png)
 ### 4.1 递推式的两大阵营
 
-![课件问题引入](posts/images/cs101_class2_summary/14.png)
+![课件问题引入](images/cs101_class2_summary/14.png)
 
 线性递推的代码示例，各位可以在python tutor 里面自行跑通并查看示例：
 ``` python
@@ -203,23 +203,7 @@ for i in range(40):
 
 ### 4.2 主方法 (Master Method) 核心法则
 
-![课件问题引入](posts/images/cs101_class2_summary/16.png)
-
-**标准公式：** $T(n) = aT(n/b) + O(n^d)$
-
-* **参数解构：**
-    * $a$ = **问题增殖率** (将大问题拆分成了几个子问题)
-    * $b$ = **工作收缩率** (每个子问题的规模是原问题的几分之一，需保证 $b > 1$)
-    * $d$ = **分合开销** (分解和合并这一层结果所需的复杂度阶数)
-
-### 4.3 复杂度判定速查表
-
-| 比较关系 | 判定主导型 | 最终时间复杂度 | 典型算法示例 |
-| :--- | :--- | :--- | :--- |
-| $a = b^d$ | **平衡型** (Balanced) | $O(n^d \log n)$ | 归并排序 (Merge Sort) |
-| $a < b^d$ | **根节点主导** (Root Dominant) | $O(n^d)$ | 大整数的初级分解 |
-| $a > b^d$ | **叶节点主导** (Leaf Dominant) | $O(n^{\log_b a})$ | 整数乘法、矩阵乘法 |
-
+![课件问题引入](images/cs101_class2_summary/16.png)
 ---
 
 ## 💡 个人 Action Items (待办与思考)
