@@ -33,8 +33,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 ## 课堂导入与主方法初窥
-![alt text](images/cs101_class2_summary/16.png)
-![课件问题引入](images/cs101_class2_summary/15.png)
+![alt text](/posts/images/cs101_class2_summary/16.png)
+![课件问题引入](/posts/images/cs101_class2_summary/15.png)
 在cs101 spring的第二节课：**归纳式与递推式** 上，我们了解到了将任务分解与组合来完成，从而降低任务的时间复杂度的概念。但是，要怎么判断一个任务是否适合通过分治（divide & conquer）来进行解决呢？很多人第一反应是画递归树。但当结构变复杂时，画树不仅费时还容易算错。在课件的最后，老师引入了解决这个问题的方法，也就是我们今天的话题：**主方法(Master Theorem)**
 
 ## 核心公式与“三巨头”（主方法的定义）
