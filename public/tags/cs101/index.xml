@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Cs101 on kkLullaby&#39;s Blog</title>
+    <link>http://localhost:1313/tags/cs101/</link>
+    <description>Recent content in Cs101 on kkLullaby&#39;s Blog</description>
+    <generator>Hugo -- 0.154.5</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 15 Mar 2026 10:20:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/cs101/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>主方法及其应用</title>
+      <link>http://localhost:1313/posts/master_theorem/</link>
+      <pubDate>Sun, 15 Mar 2026 10:20:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/master_theorem/</guid>
+      <description>基于大班课课件，对于主方法这一计算机思想的总结</description>
+    </item>
+    <item>
+      <title>计科导下-02：任务的分解与组合</title>
+      <link>http://localhost:1313/posts/summary_of_csclass2_26spring/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/summary_of_csclass2_26spring/</guid>
+      <description>基于徐老师的课件和课堂录播，对课件里的内容进行二次补充</description>
+    </item>
+  </channel>
+</rss>
