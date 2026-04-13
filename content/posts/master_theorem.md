@@ -10,25 +10,6 @@ description: "基于大班课课件，对于主方法这一计算机思想的总
 summary: "从课件出发，先进行主方法的概述，再进行拓展和FAQ解答"
 ---
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-    if (window.renderMathInElement) {
-        window.renderMathInElement(document.body, {
-            delimiters: [
-                { left: "$$", right: "$$", display: true },
-                { left: "$", right: "$", display: false },
-                { left: "\\(", right: "\\)", display: false },
-                { left: "\\[", right: "\\]", display: true }
-            ],
-            throwOnError: false
-        });
-    }
-});
-</script>
-
 #  用“主方法”算分治算法时间复杂度
 
 

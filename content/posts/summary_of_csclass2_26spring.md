@@ -1,7 +1,7 @@
 ---
 title: "计科导下-02：任务的分解与组合"
 draft: false
-author: "kklullaby"
+author: "25届cs一组课代表李凯锋"
 categories: ["学习笔记"]
 tags: ["cs101"]
 math: true
@@ -9,26 +9,6 @@ description: "基于徐老师的课件和课堂录播，对课件里的内容进
 summary: "将课堂讲述的知识进行分模块，再在对应模块里面对具体的知识进行二次阐述"
 ---
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-    if (window.renderMathInElement) {
-        window.renderMathInElement(document.body, {
-            delimiters: [
-                { left: "$$", right: "$$", display: true },
-                { left: "$", right: "$", display: false },
-                { left: "\\(", right: "\\)", display: false },
-                { left: "\\[", right: "\\]", display: true }
-            ],
-            throwOnError: false
-        });
-    }
-});
-</script>
-
-# 计科导下-02：任务的分解与组合
 
 > **💡 课程摘要 / Summary**
 > *本文档为大湾区大学（GBU）《计算机科学导论（下）》第二周课程笔记。核心探讨了如何通过**自定义函数**实现逻辑抽象，深入底层理解代码在计算机中的物理映射（**内存模型**），并运用数学逻辑（**结构归纳法**、**递推式与主方法**）来严格验证代码的正确性与评估算法性能。*
@@ -77,10 +57,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
 | 内存段 (Segment) | 核心存储内容 | 物理/逻辑特性 |
 | :--- | :--- | :--- |
-| **Stack (栈)** | [填入：函数调用上下文、局部变量等] | 先进后出 (LIFO)，自动销毁 |
-| **Heap (堆)** | [填入：程序的动态数据、对象实例等] | 动态分配，随机存取 |
-| **Data (数据段)** | [填入：静态数据、全局常量] | 程序运行期常驻 |
-| **Text (代码段)** | [填入：编译后的程序指令代码] | 只读，防止被篡改 |
+| **Stack (栈)** | [函数调用上下文、局部变量等] | 先进后出 (LIFO)，自动销毁 |
+| **Heap (堆)** | [程序的动态数据、对象实例等] | 动态分配，随机存取 |
+| **Data (数据段)** | [静态数据、全局常量] | 程序运行期常驻 |
+| **Text (代码段)** | [编译后的程序指令代码] | 只读，防止被篡改 |
 
 ### 2.2 栈帧 (Stack Frame) 的生命周期
 * **入栈 (Call)：** [描述调用自定义函数时，参数传递与新栈帧建立的过程]
