@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Vc on kkLullaby&#39;s Blog</title>
-    <link>http://localhost:1313/tags/vc/</link>
+    <link>https://kklullaby.github.io/tags/vc/</link>
     <description>Recent content in Vc on kkLullaby&#39;s Blog</description>
     <generator>Hugo -- 0.154.5</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 27 Jan 2026 10:00:00 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/vc/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kklullaby.github.io/tags/vc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>我的 Vibe Coding 初体验</title>
-      <link>http://localhost:1313/posts/something_about_tech/first_time_vibe_coding/</link>
+      <link>https://kklullaby.github.io/posts/something_about_tech/first_time_vibe_coding/</link>
       <pubDate>Tue, 27 Jan 2026 10:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/something_about_tech/first_time_vibe_coding/</guid>
+      <guid>https://kklullaby.github.io/posts/something_about_tech/first_time_vibe_coding/</guid>
       <description>&lt;h2 id=&#34;vibe-coding真的让想法的实现变得简单了吗&#34;&gt;Vibe Coding，真的让想法的实现变得简单了吗？&lt;/h2&gt;
 &lt;p&gt;早在去年年末的时候，我的社交媒体主页便被浩浩荡荡的各种原生支持AI的IDE刷屏了。无论是科技大佬，还是普通程序员，似乎都在宣扬着一件事：ai coding的时代已经到来。作为一个对新技术抱有着好奇心的人，我早就有了借助着这技术的东风，实现一下我脑子里各种新奇的想法了，但是最初苦于考试和期末各种ddl的临近，错过了第一批吃螃蟹的机会。是大概是一月初的时候吧，期末考试终于到了尾声，虽然紧接着十四天的军训，但是总归没有指标和ddl的压力push，我也便有了尝试vibe coding的时间。&lt;/p&gt;
 &lt;p&gt;但是我脑子里面的想法这么多，上手的第一个项目应该做什么呢？手上股票的一通爆雷，给了我开始的动力和想法。作为一个大A新科韭菜，连吃三个跌停之后，我痛定思痛，决定做一个股票分析工作流 —— 这个项目不仅实用性很高，而且实现起来的逻辑并不困难，无非是让AI写个脚本爬数据，接个接口做数据分析嘛。当时我只想着：需求有了，workflow也确定了，时间也有了，那还说啥了，立马开干！但是最初幼稚和不够周到的设想，却让这个简单的项目做起来有些磕磕绊绊。&lt;/p&gt;
