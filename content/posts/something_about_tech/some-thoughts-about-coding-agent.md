@@ -4,10 +4,10 @@ date: 2026-05-22T10:00:00+08:00
 tags: ["agent"] 
 author: kkLullaby
 categories: ["科技"]
-draft: true
+draft: false
 ---
 
-## 进入每周十亿数量级token消耗时代之后，我的思考 —— 关于我们与agent的共进化
+## 进入每周十亿数量级token消耗时代之后，我与AI Native的CS同学的交流心得
 
 前两天，我和新认识的cs小班课老师新招的研究生蒋学长约了一次饭，同时也展开了一次有关agent时代，ai native的同学是如何与ai cowork，在这个时代，我们这些agent native的学生应该如何对待ai的谈话。听到了许多有意思的新奇观点，是我在其他老师与非cs科班出身的人交流里面听不到的，在这里分享给大家。  
 
