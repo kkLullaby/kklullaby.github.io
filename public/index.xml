@@ -6,8 +6,55 @@
     <description>Recent content on kkLullaby&#39;s Blog</description>
     <generator>Hugo -- 0.154.5</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 07 May 2026 10:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 22 May 2026 10:00:00 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World - My first blog post</title>
+      <link>http://localhost:1313/posts/my-life/test/</link>
+      <pubDate>Mon, 19 Jan 2026 12:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/my-life/test/</guid>
+      <description>&lt;h2 id=&#34;-你好世界&#34;&gt;👋 你好，世界&lt;/h2&gt;
+&lt;p&gt;歪歪歪，anybody hear me? （清清喉咙）我要开始在互联网上的一个固定阵地发布我的观点和留下足迹了。&lt;/p&gt;
+&lt;h3 id=&#34;为什么要写博客&#34;&gt;为什么要写博客？&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;📝 记录学习过程和技术心得&lt;/li&gt;
+&lt;li&gt;🤝 与他人分享知识和经验&lt;/li&gt;
+&lt;li&gt;💭 整理思路，深化理解&lt;/li&gt;
+&lt;li&gt;🌱 见证自己的成长轨迹&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;博客内容规划&#34;&gt;博客内容规划&lt;/h3&gt;
+&lt;p&gt;在这个博客中，我计划分享：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;技术文章&lt;/strong&gt; - 分享学习新技术路上的踩坑经历&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;学习笔记&lt;/strong&gt; - 学习新知识的记录和总结&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;问题解决&lt;/strong&gt; - 遇到问题的解决过程，寻找系统性的思维构建方案&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;生活感悟&lt;/strong&gt; - 学习和生活的思考&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;一些展望&#34;&gt;一些展望&lt;/h3&gt;
+&lt;p&gt;希望通过写博客，能够：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;提升自己的技术能力&lt;/li&gt;
+&lt;li&gt;帮助到有需要的人&lt;/li&gt;
+&lt;li&gt;结识更多志同道合的朋友&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;希望能和各位一起成长hh&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;to be continue(一阵强劲的音乐响起)&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>与100位AI Native的CS科班同学交流心得——第一期</title>
+      <link>http://localhost:1313/posts/something_about_tech/some-thoughts-about-coding-agent/</link>
+      <pubDate>Fri, 22 May 2026 10:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/something_about_tech/some-thoughts-about-coding-agent/</guid>
+      <description>&lt;h2 id=&#34;进入每周十亿数量级token消耗时代之后我与ai-native的cs同学的交流心得&#34;&gt;进入每周十亿数量级token消耗时代之后，我与AI Native的CS同学的交流心得&lt;/h2&gt;
+&lt;p&gt;前两天，我和新认识的cs小班课老师新招的研究生蒋学长约了一次饭，同时也展开了一次有关agent时代，ai native的同学是如何与ai cowork，在这个时代，我们这些agent native的学生应该如何对待ai的谈话。听到了许多有意思的新奇观点，是我在其他老师与非cs科班出身的人交流里面听不到的，在这里分享给大家。&lt;/p&gt;
+&lt;h3 id=&#34;1判断你是否真正理解自己做的项目要看你是否能通过网页版chatbot实现agent做出来的效果&#34;&gt;1.判断你是否真正理解自己做的项目，要看你是否能通过网页版chatbot实现agent做出来的效果&lt;/h3&gt;
+&lt;p&gt;虽然现在已经可以通过coding agent来实现半自动程序实现，但是使用者是否了解业务的全流程，懂里面的技术细节，决定了你通过harness engineering 做出来的产品，是玩具还是真正能投入生产，改进效率的工具。是否能通过网页版 ai 分模块实现你的想法，正是这一点的生动体现。关于是否真正了解业务流程对产品质量的影响，我可算是深有感悟（后面有时间了写写这个有趣的经历）。&lt;/p&gt;
+&lt;h3 id=&#34;2ai时代最好的学习方法是自顶向下学习先了解每个知识领域是怎么被定义的再向自己研究的具体领域做知识延伸&#34;&gt;2.AI时代，最好的学习方法是自顶向下学习，先了解每个知识领域是怎么被定义的，再向自己研究的具体领域做知识延伸&lt;/h3&gt;
+&lt;p&gt;ai对于知识面的广度是我们普通人无法超越的，但是对于某个领域的深度，仍然在很多前沿领域被人类稳压一头。所以在ai时代，学习知识的最好方式不是广撒网，而是自顶向下，从一个领域的最根源，最权威的地方开始，沿着一个一个细小的分支，最终抵达你所需要的特定领域的知识。在知识学习的深度上，让自己拥有在协作时与ai互补的知识深度，这样才能更好让ai服务于自己的研究和工作。&lt;/p&gt;
+&lt;h3 id=&#34;3做好文档管理你的agent拥有的context才是让其与chatbot区分开的地方&#34;&gt;3.做好文档管理，你的agent拥有的context，才是让其与chatbot区分开的地方&lt;/h3&gt;
+&lt;p&gt;在开展项目的时候，每逢新的项目进展和走了弯路之后，及时对新的项目经验做好归档。现在在大多数通用任务上面，ai已经具备了很强的工程实现能力，限制ai能力的一大因素已经从模型的智力，转变为了模型的context容量。只有将项目里面的关键细节落实为文档，才可以避免在一轮轮context window的压缩里面，让agent丢失关键信息。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>与驭浪者共度夺冠之路(上)</title>
       <link>http://localhost:1313/posts/my-life/robomaster-ep1/</link>
@@ -48,9 +95,9 @@
     </item>
     <item>
       <title>主方法及其应用</title>
-      <link>http://localhost:1313/posts/master_theorem/</link>
+      <link>http://localhost:1313/posts/cs101summary/master_theorem/</link>
       <pubDate>Sun, 15 Mar 2026 10:20:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/master_theorem/</guid>
+      <guid>http://localhost:1313/posts/cs101summary/master_theorem/</guid>
       <description>基于大班课课件，对于主方法这一计算机思想的总结</description>
     </item>
     <item>
@@ -76,11 +123,26 @@
 &lt;hr&gt;</description>
     </item>
     <item>
-      <title>Linux 基础学习指南 (aigc自用)</title>
-      <link>http://localhost:1313/posts/linux-learning/</link>
-      <pubDate>Mon, 19 Jan 2026 18:52:37 +0800</pubDate>
-      <guid>http://localhost:1313/posts/linux-learning/</guid>
-      <description>Linux 系统基础知识学习指南，适合初学者</description>
+      <title>旧文其二：华为游记</title>
+      <link>http://localhost:1313/posts/my-life/a-tour-in-huawei/</link>
+      <pubDate>Tue, 20 Jan 2026 10:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/my-life/a-tour-in-huawei/</guid>
+      <description>&lt;h1 id=&#34;华为小镇半日游&#34;&gt;华为小镇半日游&lt;/h1&gt;
+&lt;p&gt;初到湾大的那几天，虽然还说不准我们学校的具体地理位置，但我们对学校位置却早早有了清楚的参照物——那便是旁边的华为欧洲小镇。想来湾大的老师在招生的时候，为了说明我们的地理位置优越，挂在他嘴边的参照物总是更加方便我们外行人理解的“华为欧洲小镇”，而不是国之重器散裂中子源。帮助打破科技封锁的科技巨头和充满异域风情的欧洲小镇作为基底，辅以外人难以预约进入参观的神秘色彩，让我们心里都对松湖旁边的华为小镇心生向往。&lt;/p&gt;
+&lt;p&gt;谁知才开学第二周，学校便给我们提供了前去参观的机会，更令人惊喜的是，前一天给我们开讲座的刘世定老师也会和我们同行，一路上我们都可以和他交流。在拿出春运抢票的手速抢到参观名额的第二天，我便和其他十来个同学，一同乘上了前往三丫坡的大巴。&lt;/p&gt;
+&lt;p&gt;虽然机会难得，但是南方夏日无常的天气给我们这次的出行增添了一点麻烦。下车后迎接我们的不是热情的工作人员，而是瓢泼的大雨。在门口检票时我们还有点狼狈，但是一进到华为小镇这座位于松湖旁边的异域天地，我们的身心便随着空间的开阔得到了舒展。撑着伞沿着湖畔一路前行，不远处就是查理大桥。平日到松湖烟雨游览时，能看到查理大桥的地方总是热门的拍照打卡地，哪成想今天我也成为了别人观赏的风景里面的一部分。颇有些“你站在桥上看风景，看风景的人在楼上看你”的感觉。  &lt;img alt=&#34;查理大桥&#34; loading=&#34;lazy&#34; src=&#34;./photos/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260120211955_228.jpg&#34; title=&#34;在松湖烟雨看到的查理大桥&#34;&gt;&lt;/p&gt;
+&lt;p&gt;再往前走，就是欧洲小镇内部的图书馆了。虽名为图书馆，但是这座堂皇的建筑却更像我在书里见识到的欧洲的大教堂。也许知识也是一种宗教，而这里便是供奉知识的殿堂。步入其中，最先对我们形成视觉冲击的便是那高耸精美的穹顶，穹顶之上有关知识的巴洛克风格壁画，更在空气里面增加了几分庄严肃穆的气氛。将视角往下拉，充实这个空间的无疑是那一本本厚重的书籍。我素来爱书，三步并作两步地走向了书架。目光从书架上层扫向下层，我的嘴巴也随之被惊讶张大。一本本或是精装，或是绝版的珍贵图书成为了这个神圣空间的价值标的，超越了人力成本与金钱，彰显了华为对于知识和人才的尊重。与我们通行的刘世定老师方才结束和丁老师的交谈，我便趁着这个机会前去请教他对于当今AI时代人文价值的看法，顺便请他在这个宝库里面给我们推荐一些学习资料。我们的交谈也引来了同学们的围观，大家都在图书馆氛围的感染下积极发表自己的看法，气氛好不热闹！&lt;/p&gt;
+&lt;p&gt;怀着不舍的心情离开了图书馆之后，我们便要向出口靠近了，本以为这座欧洲小镇的精髓已经被我们游览了个遍了，没想到艺术长廊又给了我新的惊喜。这条艺术长廊五脏俱全，虽规模不大，却也有着正规美术馆的样子。里面包含着各种流派，年代，形式的艺术作品，让即使没有太多艺术细胞的我，也能感受到艺术给人的至高美学感受。以至于我在里面流连忘返，跟丢了老师带的大队伍。&lt;/p&gt;
+&lt;p&gt;虽然华为的欧洲小镇规模远不止我们看到的那么多，但是剩余的部分是员工办公的地方，我们也就不方便打扰他们正常工作了。回程路上，沿着窗流下的雨滴也激发了我的思绪：前段日子读到的书籍《心流2.0》里面提到，一个良好的工作环境可以大大增加工作效率。每天都有机会和人类文明的精华接触，也许也是华为奋斗者突破科技封锁的因素之一吧。&lt;/p&gt;
+&lt;p&gt;下车之后，刘老师也要按原定形成返回北大了。临行前他也有感而发叮嘱我，要给湾大建设一个良好的人文氛围，一如今日华为欧洲小镇一般，让这种气氛滋养我们湾大学子成长。冒雨回去宿舍路上，今天看到的一切历历在目，刘老师的话萦绕在我心头。又想起前段时间媒体华为突破科技封锁的专题报导，我不知怎么地一哆嗦，意识到我要走的路还很远，我能做的事情还有很多……&lt;/p&gt;
+&lt;hr&gt;</description>
+    </item>
+    <item>
+      <title>旧文其一：来到湾大一个月的感想</title>
+      <link>http://localhost:1313/posts/my-life/first-time-in-university/</link>
+      <pubDate>Mon, 19 Jan 2026 23:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/my-life/first-time-in-university/</guid>
+      <description>原题：关于我以超985分数，入读一所我填报志愿前从来没有听说过的学校的事</description>
     </item>
     <item>
       <title>About Me</title>
@@ -195,13 +257,6 @@
       <description>按照不同主题分类的技术文章合集</description>
     </item>
     <item>
-      <title>Git 常用命令速查表 (aigc自用)</title>
-      <link>http://localhost:1313/posts/git-cheatsheet/</link>
-      <pubDate>Thu, 15 Jan 2026 14:30:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/git-cheatsheet/</guid>
-      <description>整理常用的 Git 命令，快速查阅使用</description>
-    </item>
-    <item>
       <title>Docker 入门实战教程 (aigc自用)</title>
       <link>http://localhost:1313/posts/docker-tutorial/</link>
       <pubDate>Mon, 12 Jan 2026 10:20:00 +0800</pubDate>
@@ -216,10 +271,17 @@
       <description>分享 2026 年最实用的 VSCode 插件，提升开发效率</description>
     </item>
     <item>
-      <title>计科导下-02：任务的分解与组合</title>
-      <link>http://localhost:1313/posts/summary_of_csclass2_26spring/</link>
+      <title>计科导上-07：算法思维之概念与复杂度</title>
+      <link>http://localhost:1313/posts/cs101summary/summary_of_csclass7_25fall/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/summary_of_csclass2_26spring/</guid>
+      <guid>http://localhost:1313/posts/cs101summary/summary_of_csclass7_25fall/</guid>
+      <description>基于徐老师第七讲课件和课堂录播校订文本，对算法思维、文件操作、图片隐写、高德纳算法定义与复杂度分析进行整理</description>
+    </item>
+    <item>
+      <title>计科导下-02：任务的分解与组合</title>
+      <link>http://localhost:1313/posts/cs101summary/summary_of_csclass2_26spring/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/cs101summary/summary_of_csclass2_26spring/</guid>
       <description>基于徐老师的课件和课堂录播，对课件里的内容进行二次补充</description>
     </item>
   </channel>
