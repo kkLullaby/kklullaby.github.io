@@ -1,0 +1,31 @@
+{{- /*
+  Shortcode: t-item (timeline item)
+
+  参数：
+    icon      - emoji 或字符作为节点图标
+    header    - 标题（H4）
+    subheader - 副标题（时间 / 角色）
+    badge     - 右上角药丸标签（可选）
+*/ -}}
+{{- $icon := .Get "icon" | default "●" -}}
+{{- $header := .Get "header" -}}
+{{- $subheader := .Get "subheader" -}}
+{{- $badge := .Get "badge" -}}
+
+<div class="timeline-item">
+  <div class="timeline-marker">
+    <span class="timeline-icon">{{ $icon }}</span>
+  </div>
+  <div class="timeline-content">
+    <div class="timeline-header-row">
+      {{- with $header }}<h4 class="timeline-header">{{ . }}</h4>{{ end -}}
+      {{- with $badge }}<span class="timeline-badge">{{ . }}</span>{{ end -}}
+    </div>
+    {{- with $subheader }}<p class="timeline-subheader">{{ . }}</p>{{ end -}}
+    {{- with .Inner }}
+    <div class="timeline-body">
+      {{ . | markdownify }}
+    </div>
+    {{- end }}
+  </div>
+</div>

@@ -10,6 +10,12 @@
 <link rel="stylesheet" href="{{ $projectCSS.RelPermalink }}">
 {{ end }}
 
+{{- /* Resume CSS (Hero / Timeline / Badge / Button — Blowfish 风格组件) */ -}}
+{{ if eq .RelPermalink "/resume/" }}
+{{ $resumeCSS := resources.Get "css/extended/resume.css" | minify }}
+<link rel="stylesheet" href="{{ $resumeCSS.RelPermalink }}">
+{{ end }}
+
 {{- /* KaTeX (only for pages with math: true) */ -}}
 {{ if .Params.math }}
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">

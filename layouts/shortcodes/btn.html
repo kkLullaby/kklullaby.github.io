@@ -1,0 +1,21 @@
+{{- /*
+  Shortcode: btn
+  CTA 按钮
+
+  用法：
+    {{<sc>}} btn href="https://github.com/..." {{</sc>}}🐙 GitHub{{<sc>}} /btn {{</sc>}}
+    {{<sc>}} btn href="/projects/" variant="primary" {{</sc>}}🚀 看看我的项目{{<sc>}} /btn {{</sc>}}
+
+  参数:
+    href     - 链接地址
+    variant  - 样式: primary (实心) / outline (描边, 默认)
+    target   - 链接 target (可选, 外链可填 _blank)
+*/ -}}
+{{- $href := .Get "href" | default "#" -}}
+{{- $variant := .Get "variant" | default "outline" -}}
+{{- $target := .Get "target" -}}
+<a class="btn btn--{{ $variant }}" href="{{ $href }}"
+   {{ if $target }}target="{{ $target }}" rel="noopener"{{ end }}
+   {{ if hasPrefix $href "http" }}target="_blank" rel="noopener"{{ end }}>
+  {{- .Inner -}}
+</a>

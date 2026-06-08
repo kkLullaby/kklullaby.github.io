@@ -1,0 +1,12 @@
+{{- /*
+  Shortcode: badge
+  药丸状小标签
+
+  用法：
+    {{<sc>}} badge {{</sc>}}文字{{<sc>}} /badge {{</sc>}}
+    {{<sc>}} badge color="gold" {{</sc>}}冠军{{<sc>}} /badge {{</sc>}}
+
+  color 取值: default / gold / blue / green / purple / orange
+*/ -}}
+{{- $color := .Get "color" | default "default" -}}
+<span class="badge badge--{{ $color }}">{{ .Inner }}</span>

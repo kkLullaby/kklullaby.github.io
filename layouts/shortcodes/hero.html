@@ -1,0 +1,44 @@
+{{- /*
+  Shortcode: hero
+  简历/关于页顶部的居中 hero 区（Blowfish 风格）
+
+  用法（在 .md 中）：
+    {{<sc>}} hero
+        avatar="https://github.com/kklullaby.png"
+        name="Kaifeng Li"
+        tagline="ENFP · 通信工程 · AI 应用探索者"
+    {{</sc>}}
+        内嵌的 markdown 内容会作为底部 CTA / 描述段
+    {{<sc>}} /hero {{</sc>}}
+
+  参数：
+    avatar   - 头像 URL
+    name     - 显示的名字（H1）
+    tagline  - 副标题 / 一句话
+*/ -}}
+
+{{- $avatar := .Get "avatar" -}}
+{{- $name := .Get "name" -}}
+{{- $tagline := .Get "tagline" -}}
+
+<div class="hero-profile">
+  {{- if $avatar }}
+  <div class="hero-avatar-wrap">
+    <img class="hero-avatar" src="{{ $avatar }}" alt="{{ $name }}" loading="lazy">
+  </div>
+  {{- end }}
+
+  {{- if $name }}
+  <h1 class="hero-name">{{ $name }}</h1>
+  {{- end }}
+
+  {{- if $tagline }}
+  <p class="hero-tagline">{{ $tagline }}</p>
+  {{- end }}
+
+  {{- with .Inner }}
+  <div class="hero-extra">
+    {{ . }}
+  </div>
+  {{- end }}
+</div>

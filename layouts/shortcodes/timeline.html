@@ -1,0 +1,14 @@
+{{- /*
+  Shortcode: timeline
+  时间线容器（Blowfish 风格）
+
+  用法：
+    {{<sc>}} timeline {{</sc>}}
+      {{<sc>}} t-item icon="🎓" header="..." subheader="..." badge="..." {{</sc>}}
+        正文 markdown
+      {{<sc>}} /t-item {{</sc>}}
+    {{<sc>}} /timeline {{</sc>}}
+*/ -}}
+<div class="timeline">
+{{ .Inner }}
+</div>

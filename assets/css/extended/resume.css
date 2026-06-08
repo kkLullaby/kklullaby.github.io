@@ -1,0 +1,293 @@
+/* ============================================================
+ * 简历页 —— Blowfish 风格组件库
+ * (Hero / Timeline / Badge / Button)
+ * ============================================================ */
+
+/* 隐藏默认页面 header (title + breadcrumbs) 和 footer，让 hero 接管首屏 */
+/* (此 CSS 仅在简历页加载，因此这些选择器全局只影响 /resume/) */
+.post-single > .post-header { display: none; }
+.post-single > .post-footer { display: none; }
+
+/* 隐藏 H2/H3 旁边的 # 锚点（简历页不需要文章式的链接锚） */
+.post-content .anchor { display: none !important; }
+
+/* ---------- HERO ---------- */
+
+.hero-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 60px 20px 40px;
+    margin: 0 0 40px;
+    position: relative;
+}
+
+.hero-avatar-wrap {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    padding: 4px;
+    background: linear-gradient(135deg, #6dd5ed, #2193b0, #b06ab3);
+    margin-bottom: 24px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+    transition: transform 0.4s ease;
+}
+
+.hero-avatar-wrap:hover {
+    transform: scale(1.04) rotate(-2deg);
+}
+
+.hero-avatar {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    background: var(--theme);
+}
+
+.hero-name {
+    font-size: clamp(2rem, 5vw, 2.8rem);
+    font-weight: 700;
+    margin: 0 0 8px;
+    letter-spacing: -0.02em;
+    color: var(--primary);
+    line-height: 1.1;
+}
+
+.hero-tagline {
+    font-size: clamp(0.95rem, 2vw, 1.1rem);
+    color: var(--secondary);
+    margin: 0 0 18px;
+    max-width: 540px;
+    line-height: 1.6;
+}
+
+.hero-extra {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.hero-extra p {
+    margin: 0;
+}
+
+
+/* ---------- TIMELINE ---------- */
+
+.timeline {
+    position: relative;
+    padding: 10px 0 10px 0;
+    margin: 20px 0 30px;
+}
+
+/* 竖线 */
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 19px;
+    top: 8px;
+    bottom: 8px;
+    width: 2px;
+    background: linear-gradient(to bottom,
+        rgba(125, 125, 125, 0.05) 0%,
+        rgba(125, 125, 125, 0.3) 12%,
+        rgba(125, 125, 125, 0.3) 88%,
+        rgba(125, 125, 125, 0.05) 100%);
+    border-radius: 2px;
+}
+
+.timeline-item {
+    position: relative;
+    padding-left: 60px;
+    padding-bottom: 32px;
+}
+
+.timeline-item:last-child {
+    padding-bottom: 0;
+}
+
+/* 节点圆点 */
+.timeline-marker {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--theme);
+    border: 2px solid rgba(125, 125, 125, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    transition: transform 0.25s ease, border-color 0.25s ease;
+}
+
+.timeline-item:hover .timeline-marker {
+    transform: scale(1.1);
+    border-color: var(--primary);
+}
+
+.timeline-icon {
+    font-size: 1.1rem;
+    line-height: 1;
+}
+
+.timeline-header-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 4px;
+}
+
+.timeline-header {
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--primary);
+    line-height: 1.3;
+}
+
+.timeline-badge {
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 999px;
+    font-size: 0.72rem;
+    font-weight: 600;
+    background: rgba(125, 125, 125, 0.15);
+    color: var(--primary);
+    border: 1px solid rgba(125, 125, 125, 0.25);
+    white-space: nowrap;
+}
+
+.timeline-subheader {
+    margin: 0 0 8px;
+    font-size: 0.85rem;
+    color: var(--secondary);
+    font-weight: 500;
+}
+
+.timeline-body {
+    font-size: 0.92rem;
+    color: var(--content);
+    line-height: 1.65;
+}
+
+.timeline-body p {
+    margin: 4px 0;
+}
+
+.timeline-body ul {
+    margin: 4px 0;
+    padding-left: 18px;
+}
+
+.timeline-body li {
+    margin: 2px 0;
+}
+
+
+/* ---------- BADGE ---------- */
+
+.badge {
+    display: inline-block;
+    padding: 3px 12px;
+    border-radius: 999px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    line-height: 1.4;
+    margin: 2px 4px 2px 0;
+    border: 1px solid transparent;
+    background: rgba(125, 125, 125, 0.15);
+    color: var(--primary);
+    border-color: rgba(125, 125, 125, 0.25);
+}
+
+.badge--gold   { background: rgba(255, 200, 60, 0.18); color: #b8860b; border-color: rgba(255, 200, 60, 0.5); }
+.badge--blue   { background: rgba(80, 160, 230, 0.18); color: #2076b8; border-color: rgba(80, 160, 230, 0.5); }
+.badge--green  { background: rgba(80, 200, 120, 0.18); color: #1f8a4d; border-color: rgba(80, 200, 120, 0.5); }
+.badge--purple { background: rgba(180, 120, 220, 0.18); color: #7a3eb8; border-color: rgba(180, 120, 220, 0.5); }
+.badge--orange { background: rgba(240, 150, 80, 0.18); color: #c46612; border-color: rgba(240, 150, 80, 0.5); }
+
+.dark .badge--gold   { color: #ffd84d; }
+.dark .badge--blue   { color: #6cb6ff; }
+.dark .badge--green  { color: #6cd99a; }
+.dark .badge--purple { color: #d09cf2; }
+.dark .badge--orange { color: #f5a155; }
+
+
+/* ---------- BUTTON ---------- */
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 18px;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: none !important;
+    transition: transform 0.15s ease, box-shadow 0.2s ease, background 0.2s ease;
+    line-height: 1.2;
+    margin: 4px 4px 4px 0;
+    border: 2px solid transparent;
+}
+
+.btn--outline {
+    background: transparent;
+    border-color: rgba(125, 125, 125, 0.35);
+    color: var(--primary);
+}
+
+.btn--outline:hover {
+    border-color: var(--primary);
+    background: rgba(125, 125, 125, 0.08);
+    transform: translateY(-1px);
+}
+
+.btn--primary {
+    background: linear-gradient(135deg, #2193b0, #6dd5ed);
+    color: #fff;
+    border-color: transparent;
+    box-shadow: 0 4px 14px rgba(33, 147, 176, 0.3);
+}
+
+.btn--primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(33, 147, 176, 0.45);
+    color: #fff;
+}
+
+.dark .btn--primary {
+    background: linear-gradient(135deg, #4ab8d6, #80dff0);
+    color: #0d2330;
+}
+
+
+/* ---------- 简历专属：章节分隔与留白 ---------- */
+
+.post-content h2 {
+    margin-top: 48px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(125, 125, 125, 0.18);
+}
+
+
+/* ---------- 响应式 ---------- */
+
+@media (max-width: 600px) {
+    .hero-avatar-wrap { width: 120px; height: 120px; }
+    .hero-profile { padding: 40px 16px 24px; }
+    .timeline::before { left: 15px; }
+    .timeline-item { padding-left: 50px; padding-bottom: 24px; }
+    .timeline-marker { width: 32px; height: 32px; }
+    .timeline-icon { font-size: 0.95rem; }
+}
