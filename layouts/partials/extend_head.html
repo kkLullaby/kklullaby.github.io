@@ -4,6 +4,12 @@
 <link rel="stylesheet" href="{{ $bubbleCSS.RelPermalink }}">
 {{ end }}
 
+{{- /* Project Cards CSS (projects 区段 + 任何用了 projects-grid shortcode 的页面，如简历) */ -}}
+{{ if or (eq .Type "projects") (eq .RelPermalink "/resume/") }}
+{{ $projectCSS := resources.Get "css/extended/project-cards.css" | minify }}
+<link rel="stylesheet" href="{{ $projectCSS.RelPermalink }}">
+{{ end }}
+
 {{- /* KaTeX (only for pages with math: true) */ -}}
 {{ if .Params.math }}
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">

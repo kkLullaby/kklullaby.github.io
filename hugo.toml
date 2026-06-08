@@ -41,7 +41,7 @@ enableEmoji = true
   # 首页信息
   [params.homeInfoParams]
     Title = "各位朋友，欢迎来到我的互联网自留地 👋"
-    Content = "这个小站是我--探索世界无限可能，分享生活的美好的地方，记录着我的学习历程、技术心得和生活感悟。"
+    Content = "这个小站是我——探索世界无限可能，分享生活的美好的地方，记录着我的学习历程、技术心得和生活感悟。"
 
   # 社交图标
   [[params.socialIcons]]
@@ -65,13 +65,8 @@ enableEmoji = true
   # 编辑建议
   [params.editPost]
     URL = "https://github.com/kklullaby/kklullaby.github.io/tree/main/content"
-    Text = "test"
+    Text = "建议编辑此页"
     appendFilePath = true
-
-  # 分析
-  [params.analytics]
-    [params.analytics.google]
-      SiteVerificationTag = ""
 
   # 搜索设置
   [params.fuseOpts]
@@ -116,10 +111,22 @@ enableEmoji = true
     weight = 50
 
   [[menu.main]]
+    identifier = "projects"
+    name = "🚀 项目"
+    url = "/projects/"
+    weight = 55
+
+  [[menu.main]]
     identifier = "about"
     name = "👤 关于"
     url = "/about/"
     weight = 60
+
+  [[menu.main]]
+    identifier = "resume"
+    name = "📄 简历"
+    url = "/resume/"
+    weight = 65
 
   [[menu.main]]
     identifier = "links"

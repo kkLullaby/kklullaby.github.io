@@ -1,0 +1,49 @@
+{{- define "main" }}
+
+{{- if .Title }}
+<header class="page-header">
+    <h1>{{ .Title }}</h1>
+    {{- if .Description }}
+    <div class="post-description">
+        {{ .Description }}
+    </div>
+    {{- end }}
+</header>
+{{- end }}
+
+{{- if .Content }}
+<div class="post-content projects-intro">
+    {{ .Content }}
+</div>
+{{- end }}
+
+<div class="project-bubble-container" id="projectBubbleContainer">
+    {{- range (where .Pages "Type" "projects").ByWeight }}
+    {{- $status := .Params.status | default "active" }}
+    {{- $statusLabel := .Params.statusLabel | default "🚀 进行中" }}
+    {{- $link := .Params.link | default .RelPermalink }}
+    {{- $weight := .Params.weight | default 6 }}
+    <a href="{{ $link }}"
+       class="project-bubble"
+       data-status="{{ $status }}"
+       data-weight="{{ $weight }}"
+       {{ if hasPrefix $link "http" }}target="_blank" rel="noopener"{{ end }}
+       title="{{ .Title }}">
+        <span class="project-status-badge">{{ $statusLabel }}</span>
+        <span class="project-title">{{ .Title }}</span>
+        {{- with .Params.role }}
+        <span class="project-role">{{ . }}</span>
+        {{- end }}
+        {{- with .Params.summary }}
+        <span class="project-summary">{{ . }}</span>
+        {{- end }}
+        {{- with .Params.stack }}
+        <span class="project-stack">
+            {{- range . }}<span class="stack-tag">{{ . }}</span>{{ end -}}
+        </span>
+        {{- end }}
+    </a>
+    {{- end }}
+</div>
+
+{{- end }}{{/* end main */ -}}

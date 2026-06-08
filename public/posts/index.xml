@@ -2,50 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on kkLullaby&#39;s Blog</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://kklullaby.github.io/posts/</link>
     <description>Recent content in Posts on kkLullaby&#39;s Blog</description>
     <generator>Hugo -- 0.154.5</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 22 May 2026 10:00:00 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Hello World - My first blog post</title>
-      <link>http://localhost:1313/posts/my-life/test/</link>
-      <pubDate>Mon, 19 Jan 2026 12:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/my-life/test/</guid>
-      <description>&lt;h2 id=&#34;-你好世界&#34;&gt;👋 你好，世界&lt;/h2&gt;
-&lt;p&gt;歪歪歪，anybody hear me? （清清喉咙）我要开始在互联网上的一个固定阵地发布我的观点和留下足迹了。&lt;/p&gt;
-&lt;h3 id=&#34;为什么要写博客&#34;&gt;为什么要写博客？&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;📝 记录学习过程和技术心得&lt;/li&gt;
-&lt;li&gt;🤝 与他人分享知识和经验&lt;/li&gt;
-&lt;li&gt;💭 整理思路，深化理解&lt;/li&gt;
-&lt;li&gt;🌱 见证自己的成长轨迹&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;博客内容规划&#34;&gt;博客内容规划&lt;/h3&gt;
-&lt;p&gt;在这个博客中，我计划分享：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;技术文章&lt;/strong&gt; - 分享学习新技术路上的踩坑经历&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;学习笔记&lt;/strong&gt; - 学习新知识的记录和总结&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;问题解决&lt;/strong&gt; - 遇到问题的解决过程，寻找系统性的思维构建方案&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;生活感悟&lt;/strong&gt; - 学习和生活的思考&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;一些展望&#34;&gt;一些展望&lt;/h3&gt;
-&lt;p&gt;希望通过写博客，能够：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;提升自己的技术能力&lt;/li&gt;
-&lt;li&gt;帮助到有需要的人&lt;/li&gt;
-&lt;li&gt;结识更多志同道合的朋友&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;希望能和各位一起成长hh&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;em&gt;to be continue(一阵强劲的音乐响起)&lt;/em&gt;&lt;/p&gt;</description>
-    </item>
+    <atom:link href="https://kklullaby.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>与100位AI Native的CS科班同学交流心得——第一期</title>
-      <link>http://localhost:1313/posts/something_about_tech/some-thoughts-about-coding-agent/</link>
+      <link>https://kklullaby.github.io/posts/something_about_tech/some-thoughts-about-coding-agent/</link>
       <pubDate>Fri, 22 May 2026 10:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/something_about_tech/some-thoughts-about-coding-agent/</guid>
+      <guid>https://kklullaby.github.io/posts/something_about_tech/some-thoughts-about-coding-agent/</guid>
       <description>&lt;h2 id=&#34;进入每周十亿数量级token消耗时代之后我与ai-native的cs同学的交流心得&#34;&gt;进入每周十亿数量级token消耗时代之后，我与AI Native的CS同学的交流心得&lt;/h2&gt;
 &lt;p&gt;前两天，我和新认识的cs小班课老师新招的研究生蒋学长约了一次饭，同时也展开了一次有关agent时代，ai native的同学是如何与ai cowork，在这个时代，我们这些agent native的学生应该如何对待ai的谈话。听到了许多有意思的新奇观点，是我在其他老师与非cs科班出身的人交流里面听不到的，在这里分享给大家。&lt;/p&gt;
 &lt;h3 id=&#34;1判断你是否真正理解自己做的项目要看你是否能通过网页版chatbot实现agent做出来的效果&#34;&gt;1.判断你是否真正理解自己做的项目，要看你是否能通过网页版chatbot实现agent做出来的效果&lt;/h3&gt;
@@ -57,9 +24,9 @@
     </item>
     <item>
       <title>与驭浪者共度夺冠之路(上)</title>
-      <link>http://localhost:1313/posts/my-life/robomaster-ep1/</link>
+      <link>https://kklullaby.github.io/posts/my-life/robomaster-ep1/</link>
       <pubDate>Thu, 07 May 2026 10:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/my-life/robomaster-ep1/</guid>
+      <guid>https://kklullaby.github.io/posts/my-life/robomaster-ep1/</guid>
       <description>&lt;h2 id=&#34;见证一个新晋rm战队的夺冠之路&#34;&gt;见证一个新晋RM战队的夺冠之路&lt;/h2&gt;
 &lt;p&gt;进入大一的下学期，生活节奏突然就快了起来。以至于我好像都没有更多的闲暇时间分配给我的blog了。本想将更新blog一事暂时搁置，也许过几年偶尔回想起来，再打开这个刚成年自己埋下的时间胶囊，却不料收到了热心读者（学长）的催更。这意想不到的催更倒是让我又惊喜又有些惭愧，一方面是因为本以为收作时间胶囊的文章竟有读者认真研读，另一方面是羞愧于自己稚嫩的笔法，总感觉自己的水平有点经不起耐心的读者的审阅。&lt;/p&gt;
 &lt;p&gt;扯远了，本文作于5月，在3月末，我们大湾区大学的驭浪者RM战队在robomaster华南赛区1v1超级对抗赛里面斩获冠军。在这支队伍里面，我的贡献度刚好排在奖状能写完的名字容量后面一个，“世俗”如我，在大伙攀登夺冠之路的最后一段选择了按下暂停键，在下一个阶段里面再作为主力继续给这支队伍作出贡献。我作为亲手栽下这颗树的种子的一员，总不愿意完全地离开这个小团队，在这个极度缺乏人手的阶段，我还是愿意为这个团队做点力所能及的事情。就这样，我翘了周五下午的水课，乘上了前往珠海的大巴，带着一点对大伙的忧虑和对旅途的兴奋，恣意地享受着逃课带来的欢愉。不过，在这部名为《驭浪者》的影片，到达主角获得冠军的高潮时刻之前，让我们不妨将胶片倒带，回到故事刚开始的，第一张胶片。&lt;/p&gt;
@@ -73,38 +40,38 @@
 &lt;p&gt;老师没有？&lt;/p&gt;
 &lt;p&gt;“靠人脉请！”&lt;/p&gt;
 &lt;p&gt;在我们草创的意向刚被知道的时候，我们就安排了行程到华南师范的机器人社团参观，观察一个不是很庞大，经费有限的实验室是怎么支撑起搭建机器人，完赛的目标的，从这一个层面上来看，学习华师的范式对我们的组织架构是更加有利的，学习华南虎的那一趟行程，则更像是去social。那么，创立战队的四个人是从哪里聚到一起的呢？说来也挺巧的，其实是我们四个人在去华南师范战队参观完之后，在回去的路上被田老师碰到了，于是她便把完成这件大事的重任交给了我们。有点草台班子地，这个战队的雏形就由那天下午，被田老师碰到的我，Z君，H君和Y君几个人形成了。&lt;br&gt;
-&lt;img alt=&#34;华师参观&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/my-life/photos/rm/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260510001835_268_11.jpg&#34;&gt;
-&lt;img alt=&#34;华师参观合影&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/my-life/photos/rm/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260510001836_269_11.jpg&#34;&gt;&lt;/p&gt;
+&lt;img alt=&#34;华师参观&#34; loading=&#34;lazy&#34; src=&#34;https://kklullaby.github.io/posts/my-life/photos/rm/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260510001835_268_11.jpg&#34;&gt;
+&lt;img alt=&#34;华师参观合影&#34; loading=&#34;lazy&#34; src=&#34;https://kklullaby.github.io/posts/my-life/photos/rm/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260510001836_269_11.jpg&#34;&gt;&lt;/p&gt;
 &lt;p&gt;战队草创，光有资金支持是不够的，没有人才和技术，再贵的设备到了手里，也都是白瞎。于是，我们的第一步并不是立即就着手按着开源的图纸搭建机器人，而是先招兵买马，打磨技术。而我便顺理成章地成为了团队的HR。招贤纳士的公告一经发布，我便收到了十来份自告奋勇参加的同学的意向消息。其中有多少凑热闹，有多少想学习，有多少想冲锋，不经一番了解，还真是搞不明白。于是，我便白天蹲在办公室里面看各种教程，晚上逐个同学地聊天。大约花了一个多星期，就把电控几人的初步名单定下来了。&lt;/p&gt;
 &lt;p&gt;整个草创让我印象最深刻的部分，也许就是我敲定了大概的名单，拿到了教学套装之后，把大家都聚到一起开会宣告成立的那个晚上。从十月份完成了几个战队的参观，到名单敲定，大家聚到一起，又过去一个多月。离26年的正式比赛还有不到五个月的时间，“时间紧，任务重”变成了这次会议的关键词。我还煞有介事地做了个ppt，搞了一个小小的器材交接环节。用一点仪式感，宣告了电控部的全员到齐，以及跟大家说明白了大概的任务。&lt;/p&gt;
 &lt;p&gt;后面这段时间，就是电影里面延时镜头拍摄的部分了。大伙慢慢学习长进，完成任务，一点一点地朝着目标前进。在此期间也发生了很多有意思的事情，篇幅和我的精力时间限制，就不加赘述了。&lt;br&gt;
-&lt;img alt=&#34;学习基本技能&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/my-life/photos/rm/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260510001837_270_11.jpg&#34;&gt;&lt;/p&gt;
+&lt;img alt=&#34;学习基本技能&#34; loading=&#34;lazy&#34; src=&#34;https://kklullaby.github.io/posts/my-life/photos/rm/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260510001837_270_11.jpg&#34;&gt;&lt;/p&gt;
 &lt;p&gt;那为什么我从一开始组建队伍的核心成员，落到贡献度排不上首发呢？这可能就要和我个人的实际情况做一下结合了。上个学期身兼CS和英语两科的课代表职责，承接了高中同学的“三创赛”的作品开发任务（也是个有趣的经历，后面也许会写写），以及班级其他事务缠身，导致我的进度从初期的甩开其他人两个月到慢慢在深水区跟不上。到了一月份我决意退出三月份的比赛名单，把名额让给贡献更多更大的同学。虽说我赖着确实可能可以上去沽名钓誉，但是还是应该把荣誉和奖项给出力更多，更加专注于这个项目的同学。我又去做三创赛的项目，又去了菱朗杯，总不能什么好处都让我占完了吧？&lt;/p&gt;
 &lt;p&gt;一月份到三月份，正是备赛最紧张的时候，我虽然已经把我应该承担责任的部分移到了后面，但是我也有在继续关注着大伙备赛的进程。即使在二月份其他人最松弛的时候，小群里面还是会经常冒出Y君催促其他人：“怎么还不过来调车？”“你要拖到什么时候？”“这个部分不应该是前几天就做好的吗？”等一系列消息，有的同学放寒假回家休息了一两天又重新被拉了回来备赛，不禁为各位的积极性和奉献精神点赞！再回看我自己选择了做其他的项目，而不是跟着一起冲，有的时候还真是有些不好意思嘿。期间我们在备赛的最后阶段决定更换原来定下来的两个开源方案组合而成的方案为官方样板车方案，更是给项目的顺利完成添加了不少阻力。&lt;/p&gt;
 &lt;p&gt;在大家都在为各自的项目忙得热火朝天的时候，三月份也不知不觉中来临了。我将三创赛的项目计划书，项目原型搭建得差不多了，战队里面的大伙也搭好了官车，Y君和H君也完成了初调车，看似一切都在正确的轨道行进着我们的目标起初是能搭建，现在貌似可以提升到能参加比赛，在比赛里面不出故障了。（我们一开始的期望值不高，别说其他老师了，就算是我们自己，也不怎么看好最后能做出来什么成绩。）仿佛是凭空出现地，一份参赛通知书和赛程表出现在了群里面，参赛的各位也随之嗅到了比赛紧张的气息，越发努力地准备了起来。虽说我不是直接参加比赛的人员吧，我也对各位十分关心，从一开始只是打算请各位在比赛第一天参赛吃饭，到下定决心到现场支持，就算这辆车上面没有我写的代码，前途未卜，作为社团的创办人之一，我也想陪着各位走到最后。至于去要付出的代价，则与之相比不值一提。&lt;/p&gt;
 &lt;p&gt;到了二十二号比赛开始那天，群里面前一天在回味着疯狂星期四的余香和期望着今日初登赛场的检录，我则只背着一个背包，踏上了前往珠海北京理工大学的颠簸大巴。大巴摇摇晃晃，我对各位比赛的前景的不确定性也充满了担忧。没给我多想的时间，我就被暴躁的大巴甩到了北京理工大学的门口。揉揉眼睛，总算是见到了高三时同学们议论的所谓“广东省内录取分数线最高”的高校的庐山真面目。活动活动筋骨，拉紧背包的松紧带，手忙脚乱地在乱七八糟的文件管理中心里面找到参赛通知书，门卫可算是把我放进了学校里面。校门朴素而不张扬，“北京理工大学（BIT）”几个字静静地安坐在大门口，没有华丽的包装，有的却只是为国奉献的坚定无私和对实力无需证明的自信。比校门更加显眼的是“2026Robomaster机甲大师挑战赛华南站”的宣传立牌和前往赛场的指引标识。沿着标识一路向前走，北京理工大学展示出来的面貌不像湾大般现代、充满科技感，却别有一番生活气息和平易近人感，让人安心而放松。爬上一个坡，眼前最显眼的大型建筑便是体育馆了，也是此次比赛举办的主场地所在。“H君，出来接我！”我兴奋的神情溢于言表，朝着从体育馆里面出来的各位走去。&lt;br&gt;
-&lt;img alt=&#34;BIT&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/my-life/photos/rm/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260510001839_271_11.jpg&#34;&gt;&lt;/p&gt;
+&lt;img alt=&#34;BIT&#34; loading=&#34;lazy&#34; src=&#34;https://kklullaby.github.io/posts/my-life/photos/rm/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260510001839_271_11.jpg&#34;&gt;&lt;/p&gt;
 &lt;p&gt;越是靠近体育馆，就越是能听见里面人声鼎沸的呐喊声，看见各个队伍热火朝天调车的身影。跨过检录处，一边小心着其他队伍的旗帜碰到头，另一边又要小心脚下不要踩到其他队伍的零件，我在钢铁的草垛里面迈开脚步向前，终于在角落里面发现了我们“驭浪者战队”的旗帜。其余几位同学正在围着那一片区域讨论，见到我过来了，Y君也额外递上了一个代表着参赛队员身份的胸牌。把这个胸牌戴在脖子上，我也算是有了出入校园的凭证。了解到大概的赛程在明天早上才开始之后，我在下午到晚上这段空闲时间打算先到sysuzh的校区转转，这个校区素有华南最美校园的美誉，到了那边还能顺便见一见在高三那段时间经常和我聊天，给我加油打气的C学姐。在最近之前，我已经有好一段时间没有和她联系了，但是最近她开始追我最喜欢的美剧&amp;ndash;The Stranger Things又给了我们新的话题～虽然从来没有线下见过她，但是我感觉就像来见一位相识已久的老朋友。&lt;br&gt;
-&lt;img alt=&#34;场馆内&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/my-life/photos/rm/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260510001840_272_11.jpg&#34;&gt;&lt;/p&gt;
+&lt;img alt=&#34;场馆内&#34; loading=&#34;lazy&#34; src=&#34;https://kklullaby.github.io/posts/my-life/photos/rm/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260510001840_272_11.jpg&#34;&gt;&lt;/p&gt;
 &lt;p&gt;sysuzh离bitzh并不是很远，打车十来分钟就到了，打开taxi的车窗，空气从有点潮湿，到慢慢有了海的形状，虽然车门打开的一瞬间，映入我的眼帘的是中大华美的建筑，但是我心里很分明地知道：海离我不远了。我先到了等待的地方，像是到了新的寄宿家庭的小猫一般有点无所适从，只好戴上耳机，在四周随意转转。sysu的建筑真是和湾大风格迥异诶！湾大的建筑强调现代和科技感，但是sysu的建筑却有一种难以用言语直接说明的庄严和肃穆感，不知不觉之间，我有点看呆了。好一会低头看手机，才发现学姐刚刚给我发送的“我已经到了，你在哪里？”的消息。前面饭堂门口站着一个并不是很高，有着一头漂亮的卷发，正在四处张望的女生。虽然我和学姐素未谋面，但是那位女生却给我一阵说不清楚的熟悉感。她应该就是C学姐了！我心里确认到。打算给她一个惊喜，我跑到了后面跟她打招呼，不料却被她提前看到了。我悻悻笑了笑，很自然地和她聊了起来。边聊边走到了饭堂，也许在最开始进入sysu的时候没让我感到落差，可是此刻饭堂的差距却实实在在让我感受到了在sysu生活的幸福感，食堂品种多样和美味程度，并不是gbu能比的。一时间有点眼花缭乱，我便顺着C学姐的建议，选择了蛋包饭。蛋包饭分量不少，味道也相当合我的胃口，只消短短三五分钟，我便一扫而光。我们聊着聊着就从饭堂来到了楼下，在后面的行程里面，学姐带我骑车绕了一圈sysu。虽然现在已经记不起来当时具体聊东聊西讲了什么，不过鸭大美丽的风光，有点潮湿的空气，却在我的记忆里面成为了一张寄回过去的明信片，圆了高三在教室看鸭大宣传册的我的一个小小的憧憬。上了大学之后总感觉自己在特别短的时间之内就产生了特别大的变化，总有点无所适从和没有办法坚定地往前走，不过和学姐对话的过程里，我感觉自己又重新变回了去年在狭小拥挤的教室里面，憧憬着未来的单纯男高。重新拥有了对未来不确定性的期盼。学姐也是一个非常单纯很普通的大学生，只是好好上课就可以放心大胆去玩了，未来的一切都是很确定的，但是我们拥有了这么多的资源的同时，也多了一份无形的压力，身边有不少满绩大佬和进组做工作，想发论文的同学，自己在不知不觉之间也不想落下，生活学习的步伐也不禁加快了起来。学姐身上那种大学生的青春朝气和鸭大的“大学生活模板”，让我十分羡慕和向往。在湾大，人数基数少，缺少其他大学的青春气息和校园氛围，总感觉让我的青春留下了一点遗憾。大伙晚上还要检录，刚好转完一圈回到校门口，我便在校门口与C学姐分别了。&lt;br&gt;
-&lt;img alt=&#34;sysu&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/my-life/photos/rm/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260510001844_276_11.jpg&#34;&gt;&lt;/p&gt;
+&lt;img alt=&#34;sysu&#34; loading=&#34;lazy&#34; src=&#34;https://kklullaby.github.io/posts/my-life/photos/rm/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260510001844_276_11.jpg&#34;&gt;&lt;/p&gt;
 &lt;p&gt;回到bit确认各位的车没有问题之后，我们便一起回到了酒店。晚上九点半，时候还算早，我打算下楼转转。春天的海风带来了一场几乎让人无感的绵绵小雨，仿佛雨滴不是来自天上，而是空气中的气态水分子自然凝结而成。穿过天然的水门，我沿着前往海边的小道一直走，在穿越了多个有点荒凉的地段之后抵达了滨海大道。“海啊！”我惊呼到。海的安静，海的仁厚无私，海的一望无际，通通在我面前一览无余。用鼻子，用眼睛，用皮肤，用耳朵。我从多个角度感受海。在精神如海绵般吸收完了大海给我的滋养之后，心满意足地回到了酒店休息。&lt;br&gt;
-&lt;img alt=&#34;出来溜达&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/my-life/photos/rm/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260510001840_272_11.jpg&#34;&gt;&lt;/p&gt;
+&lt;img alt=&#34;出来溜达&#34; loading=&#34;lazy&#34; src=&#34;https://kklullaby.github.io/posts/my-life/photos/rm/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260510001840_272_11.jpg&#34;&gt;&lt;/p&gt;
 &lt;p&gt;随着本篇文章的更新，春假也在渐渐离我而去。不知不觉间就码了四五千字了。再这样子下去怕是要打扰到我的正常学习节奏了，那就等我什么时候空闲了再更新吧，想看的朋友可以不定期催更哦～但是最近一两个月怕是比较难赶出来了。Anyway让我们相约在下一篇文章！&lt;br&gt;
-&lt;img alt=&#34;BIT美丽捏&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/my-life/photos/rm/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260510001843_275_11.jpg&#34;&gt;&lt;/p&gt;</description>
+&lt;img alt=&#34;BIT美丽捏&#34; loading=&#34;lazy&#34; src=&#34;https://kklullaby.github.io/posts/my-life/photos/rm/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260510001843_275_11.jpg&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>主方法及其应用</title>
-      <link>http://localhost:1313/posts/cs101summary/master_theorem/</link>
+      <link>https://kklullaby.github.io/posts/cs101summary/master_theorem/</link>
       <pubDate>Sun, 15 Mar 2026 10:20:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/cs101summary/master_theorem/</guid>
+      <guid>https://kklullaby.github.io/posts/cs101summary/master_theorem/</guid>
       <description>基于大班课课件，对于主方法这一计算机思想的总结</description>
     </item>
     <item>
       <title>我的 Vibe Coding 初体验</title>
-      <link>http://localhost:1313/posts/something_about_tech/first_time_vibe_coding/</link>
+      <link>https://kklullaby.github.io/posts/something_about_tech/first_time_vibe_coding/</link>
       <pubDate>Tue, 27 Jan 2026 10:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/something_about_tech/first_time_vibe_coding/</guid>
+      <guid>https://kklullaby.github.io/posts/something_about_tech/first_time_vibe_coding/</guid>
       <description>&lt;h2 id=&#34;vibe-coding真的让想法的实现变得简单了吗&#34;&gt;Vibe Coding，真的让想法的实现变得简单了吗？&lt;/h2&gt;
 &lt;p&gt;早在去年年末的时候，我的社交媒体主页便被浩浩荡荡的各种原生支持AI的IDE刷屏了。无论是科技大佬，还是普通程序员，似乎都在宣扬着一件事：ai coding的时代已经到来。作为一个对新技术抱有着好奇心的人，我早就有了借助着这技术的东风，实现一下我脑子里各种新奇的想法了，但是最初苦于考试和期末各种ddl的临近，错过了第一批吃螃蟹的机会。是大概是一月初的时候吧，期末考试终于到了尾声，虽然紧接着十四天的军训，但是总归没有指标和ddl的压力push，我也便有了尝试vibe coding的时间。&lt;/p&gt;
 &lt;p&gt;但是我脑子里面的想法这么多，上手的第一个项目应该做什么呢？手上股票的一通爆雷，给了我开始的动力和想法。作为一个大A新科韭菜，连吃三个跌停之后，我痛定思痛，决定做一个股票分析工作流 —— 这个项目不仅实用性很高，而且实现起来的逻辑并不困难，无非是让AI写个脚本爬数据，接个接口做数据分析嘛。当时我只想着：需求有了，workflow也确定了，时间也有了，那还说啥了，立马开干！但是最初幼稚和不够周到的设想，却让这个简单的项目做起来有些磕磕绊绊。&lt;/p&gt;
@@ -124,9 +91,9 @@
     </item>
     <item>
       <title>旧文其二：华为游记</title>
-      <link>http://localhost:1313/posts/my-life/a-tour-in-huawei/</link>
+      <link>https://kklullaby.github.io/posts/my-life/a-tour-in-huawei/</link>
       <pubDate>Tue, 20 Jan 2026 10:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/my-life/a-tour-in-huawei/</guid>
+      <guid>https://kklullaby.github.io/posts/my-life/a-tour-in-huawei/</guid>
       <description>&lt;h1 id=&#34;华为小镇半日游&#34;&gt;华为小镇半日游&lt;/h1&gt;
 &lt;p&gt;初到湾大的那几天，虽然还说不准我们学校的具体地理位置，但我们对学校位置却早早有了清楚的参照物——那便是旁边的华为欧洲小镇。想来湾大的老师在招生的时候，为了说明我们的地理位置优越，挂在他嘴边的参照物总是更加方便我们外行人理解的“华为欧洲小镇”，而不是国之重器散裂中子源。帮助打破科技封锁的科技巨头和充满异域风情的欧洲小镇作为基底，辅以外人难以预约进入参观的神秘色彩，让我们心里都对松湖旁边的华为小镇心生向往。&lt;/p&gt;
 &lt;p&gt;谁知才开学第二周，学校便给我们提供了前去参观的机会，更令人惊喜的是，前一天给我们开讲座的刘世定老师也会和我们同行，一路上我们都可以和他交流。在拿出春运抢票的手速抢到参观名额的第二天，我便和其他十来个同学，一同乘上了前往三丫坡的大巴。&lt;/p&gt;
@@ -139,37 +106,37 @@
     </item>
     <item>
       <title>旧文其一：来到湾大一个月的感想</title>
-      <link>http://localhost:1313/posts/my-life/first-time-in-university/</link>
+      <link>https://kklullaby.github.io/posts/my-life/first-time-in-university/</link>
       <pubDate>Mon, 19 Jan 2026 23:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/my-life/first-time-in-university/</guid>
+      <guid>https://kklullaby.github.io/posts/my-life/first-time-in-university/</guid>
       <description>原题：关于我以超985分数，入读一所我填报志愿前从来没有听说过的学校的事</description>
     </item>
     <item>
       <title>Docker 入门实战教程 (aigc自用)</title>
-      <link>http://localhost:1313/posts/docker-tutorial/</link>
+      <link>https://kklullaby.github.io/posts/docker-tutorial/</link>
       <pubDate>Mon, 12 Jan 2026 10:20:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/docker-tutorial/</guid>
+      <guid>https://kklullaby.github.io/posts/docker-tutorial/</guid>
       <description>Docker 容器技术入门教程，从安装到实战</description>
     </item>
     <item>
       <title>VSCode 必备插件推荐 2026</title>
-      <link>http://localhost:1313/posts/vscode-plugins/</link>
+      <link>https://kklullaby.github.io/posts/vscode-plugins/</link>
       <pubDate>Sat, 10 Jan 2026 16:45:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/vscode-plugins/</guid>
+      <guid>https://kklullaby.github.io/posts/vscode-plugins/</guid>
       <description>分享 2026 年最实用的 VSCode 插件，提升开发效率</description>
     </item>
     <item>
       <title>计科导上-07：算法思维之概念与复杂度</title>
-      <link>http://localhost:1313/posts/cs101summary/summary_of_csclass7_25fall/</link>
+      <link>https://kklullaby.github.io/posts/cs101summary/summary_of_csclass7_25fall/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/cs101summary/summary_of_csclass7_25fall/</guid>
+      <guid>https://kklullaby.github.io/posts/cs101summary/summary_of_csclass7_25fall/</guid>
       <description>基于徐老师第七讲课件和课堂录播校订文本，对算法思维、文件操作、图片隐写、高德纳算法定义与复杂度分析进行整理</description>
     </item>
     <item>
       <title>计科导下-02：任务的分解与组合</title>
-      <link>http://localhost:1313/posts/cs101summary/summary_of_csclass2_26spring/</link>
+      <link>https://kklullaby.github.io/posts/cs101summary/summary_of_csclass2_26spring/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/cs101summary/summary_of_csclass2_26spring/</guid>
+      <guid>https://kklullaby.github.io/posts/cs101summary/summary_of_csclass2_26spring/</guid>
       <description>基于徐老师的课件和课堂录播，对课件里的内容进行二次补充</description>
     </item>
   </channel>

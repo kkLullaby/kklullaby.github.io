@@ -1,0 +1,63 @@
+{{- /*
+  Shortcode: projects-grid
+  在任意 Markdown 文件里嵌入项目卡片网格，自动从 content/projects/ 读取。
+
+  用法（在 .md 中调用）：
+    {{<sc>}} projects-grid {{</sc>}}                          - 显示全部项目
+    {{<sc>}} projects-grid limit="6" {{</sc>}}                - 只显示前 6 个（按 weight）
+    {{<sc>}} projects-grid status="champion,active" {{</sc>}} - 只显示指定状态
+    {{<sc>}} projects-grid only="robomaster-yulangzhe,quant-trading" {{</sc>}} - 只显示指定文件名
+
+  上面用 {{<sc>}} 代表 shortcode 起止符号 (Hugo 文档注释不能直接写它)
+*/ -}}
+
+{{- $projects := where site.RegularPages "Type" "projects" -}}
+
+{{- /* 按 status 过滤 */ -}}
+{{- with .Get "status" -}}
+  {{- $allowed := split . "," -}}
+  {{- $projects = where $projects ".Params.status" "in" $allowed -}}
+{{- end -}}
+
+{{- /* 按文件名(slug)过滤 */ -}}
+{{- with .Get "only" -}}
+  {{- $slugs := split . "," -}}
+  {{- $projects = where $projects ".File.BaseFileName" "in" $slugs -}}
+{{- end -}}
+
+{{- /* 按 weight 排序 (默认从大到小，重要的在前) */ -}}
+{{- $projects = $projects.ByWeight.Reverse -}}
+
+{{- /* 限制数量 */ -}}
+{{- with .Get "limit" -}}
+  {{- $projects = first (int .) $projects -}}
+{{- end -}}
+
+<div class="project-bubble-container project-bubble-container--embedded">
+{{- range $projects }}
+  {{- $status := .Params.status | default "active" }}
+  {{- $statusLabel := .Params.statusLabel | default "🚀 进行中" }}
+  {{- $link := .Params.link | default .RelPermalink }}
+  {{- $weight := .Params.weight | default 6 }}
+  <a href="{{ $link }}"
+     class="project-bubble"
+     data-status="{{ $status }}"
+     data-weight="{{ $weight }}"
+     {{ if hasPrefix $link "http" }}target="_blank" rel="noopener"{{ end }}
+     title="{{ .Title }}">
+    <span class="project-status-badge">{{ $statusLabel }}</span>
+    <span class="project-title">{{ .Title }}</span>
+    {{- with .Params.role }}
+    <span class="project-role">{{ . }}</span>
+    {{- end }}
+    {{- with .Params.summary }}
+    <span class="project-summary">{{ . }}</span>
+    {{- end }}
+    {{- with .Params.stack }}
+    <span class="project-stack">
+      {{- range . }}<span class="stack-tag">{{ . }}</span>{{ end -}}
+    </span>
+    {{- end }}
+  </a>
+{{- end }}
+</div>

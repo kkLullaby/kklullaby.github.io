@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>🚀 项目展示 on kkLullaby&#39;s Blog</title>
+    <link>https://kklullaby.github.io/projects/</link>
+    <description>Recent content in 🚀 项目展示 on kkLullaby&#39;s Blog</description>
+    <generator>Hugo -- 0.154.5</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 01 Jun 2026 12:00:00 +0800</lastBuildDate>
+    <atom:link href="https://kklullaby.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>voice-agent</title>
+      <link>https://kklullaby.github.io/projects/voice-agent/</link>
+      <pubDate>Mon, 01 Jun 2026 12:00:00 +0800</pubDate>
+      <guid>https://kklullaby.github.io/projects/voice-agent/</guid>
+      <description>把 AI Agent 装进语音通道里 —— 让对话回到最自然的形态。</description>
+    </item>
+    <item>
+      <title>网络安全中心日志分析助手</title>
+      <link>https://kklullaby.github.io/projects/security-log-agent/</link>
+      <pubDate>Mon, 01 Jun 2026 12:00:00 +0800</pubDate>
+      <guid>https://kklullaby.github.io/projects/security-log-agent/</guid>
+      <description>为校园 / 实验室级网络安全中心做日志分析的 LLM 助手。</description>
+    </item>
+    <item>
+      <title>智能车牌识别系统</title>
+      <link>https://kklullaby.github.io/projects/license-plate-recognition/</link>
+      <pubDate>Sun, 15 Feb 2026 12:00:00 +0800</pubDate>
+      <guid>https://kklullaby.github.io/projects/license-plate-recognition/</guid>
+      <description>为学校实际场景搭建的车牌识别小工具。</description>
+    </item>
+    <item>
+      <title>循果环生 · 三创赛省赛</title>
+      <link>https://kklullaby.github.io/projects/xunguohuansheng/</link>
+      <pubDate>Mon, 20 Apr 2026 12:00:00 +0800</pubDate>
+      <guid>https://kklullaby.github.io/projects/xunguohuansheng/</guid>
+      <description>第十届「挑战杯」三创赛省赛入围项目 —— 探索循环经济的一次尝试。</description>
+    </item>
+    <item>
+      <title>GVCLab 数据采集</title>
+      <link>https://kklullaby.github.io/projects/gvclab-data-collection/</link>
+      <pubDate>Sun, 01 Mar 2026 12:00:00 +0800</pubDate>
+      <guid>https://kklullaby.github.io/projects/gvclab-data-collection/</guid>
+      <description>带领团队为 GVCLab 完成定向数据采集任务。</description>
+    </item>
+    <item>
+      <title>obsidian-self-study-os</title>
+      <link>https://kklullaby.github.io/projects/obsidian-self-study-os/</link>
+      <pubDate>Wed, 01 Apr 2026 12:00:00 +0800</pubDate>
+      <guid>https://kklullaby.github.io/projects/obsidian-self-study-os/</guid>
+      <description>把自学流程沉淀为可复用的 Obsidian 知识库模板。</description>
+    </item>
+    <item>
+      <title>Vibe Coding · AI Agent 探索</title>
+      <link>https://kklullaby.github.io/projects/vibe-coding-agent/</link>
+      <pubDate>Fri, 22 May 2026 12:00:00 +0800</pubDate>
+      <guid>https://kklullaby.github.io/projects/vibe-coding-agent/</guid>
+      <description>在 100 位 AI Native CS 同学的对话中，摸索 Coding Agent 的边界与可能。</description>
+    </item>
+    <item>
+      <title>个人量化交易工作流</title>
+      <link>https://kklullaby.github.io/projects/quant-trading/</link>
+      <pubDate>Tue, 27 Jan 2026 12:00:00 +0800</pubDate>
+      <guid>https://kklullaby.github.io/projects/quant-trading/</guid>
+      <description>基于 n8n + Python + AI 的新闻分析与行情提醒工作流。</description>
+    </item>
+    <item>
+      <title>RoboMaster · 驭浪者</title>
+      <link>https://kklullaby.github.io/projects/robomaster-yulangzhe/</link>
+      <pubDate>Sun, 10 May 2026 12:00:00 +0800</pubDate>
+      <guid>https://kklullaby.github.io/projects/robomaster-yulangzhe/</guid>
+      <description>大湾区大学首支 RoboMaster 战队，2026 单项赛 1v1 步兵超级对抗赛冠军。</description>
+    </item>
+  </channel>
+</rss>

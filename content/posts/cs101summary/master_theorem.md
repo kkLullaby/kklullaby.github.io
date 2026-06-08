@@ -5,6 +5,7 @@ draft: false
 author: "kkLullaby"
 categories: ["学习笔记"]
 tags: ["cs101"]
+series: ["CS101 课程笔记"]
 math: true
 description: "基于大班课课件，对于主方法这一计算机思想的总结"
 summary: "从课件出发，先进行主方法的概述，再进行拓展和FAQ解答"

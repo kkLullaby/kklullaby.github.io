@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Agent on kkLullaby&#39;s Blog</title>
-    <link>http://localhost:1313/tags/agent/</link>
+    <link>https://kklullaby.github.io/tags/agent/</link>
     <description>Recent content in Agent on kkLullaby&#39;s Blog</description>
     <generator>Hugo -- 0.154.5</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 22 May 2026 10:00:00 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/agent/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kklullaby.github.io/tags/agent/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>与100位AI Native的CS科班同学交流心得——第一期</title>
-      <link>http://localhost:1313/posts/something_about_tech/some-thoughts-about-coding-agent/</link>
+      <link>https://kklullaby.github.io/posts/something_about_tech/some-thoughts-about-coding-agent/</link>
       <pubDate>Fri, 22 May 2026 10:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/something_about_tech/some-thoughts-about-coding-agent/</guid>
+      <guid>https://kklullaby.github.io/posts/something_about_tech/some-thoughts-about-coding-agent/</guid>
       <description>&lt;h2 id=&#34;进入每周十亿数量级token消耗时代之后我与ai-native的cs同学的交流心得&#34;&gt;进入每周十亿数量级token消耗时代之后，我与AI Native的CS同学的交流心得&lt;/h2&gt;
 &lt;p&gt;前两天，我和新认识的cs小班课老师新招的研究生蒋学长约了一次饭，同时也展开了一次有关agent时代，ai native的同学是如何与ai cowork，在这个时代，我们这些agent native的学生应该如何对待ai的谈话。听到了许多有意思的新奇观点，是我在其他老师与非cs科班出身的人交流里面听不到的，在这里分享给大家。&lt;/p&gt;
 &lt;h3 id=&#34;1判断你是否真正理解自己做的项目要看你是否能通过网页版chatbot实现agent做出来的效果&#34;&gt;1.判断你是否真正理解自己做的项目，要看你是否能通过网页版chatbot实现agent做出来的效果&lt;/h3&gt;

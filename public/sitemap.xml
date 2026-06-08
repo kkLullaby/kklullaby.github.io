@@ -2,128 +2,165 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/my-life/test/</loc>
-    <lastmod>2026-01-19T12:00:00+08:00</lastmod>
+    <loc>https://kklullaby.github.io/projects/voice-agent/</loc>
+    <lastmod>2026-06-01T12:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/agent/</loc>
+    <loc>https://kklullaby.github.io/projects/security-log-agent/</loc>
+    <lastmod>2026-06-01T12:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://kklullaby.github.io/projects/license-plate-recognition/</loc>
+    <lastmod>2026-02-15T12:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://kklullaby.github.io/projects/xunguohuansheng/</loc>
+    <lastmod>2026-04-20T12:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://kklullaby.github.io/projects/gvclab-data-collection/</loc>
+    <lastmod>2026-03-01T12:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://kklullaby.github.io/projects/obsidian-self-study-os/</loc>
+    <lastmod>2026-04-01T12:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://kklullaby.github.io/projects/vibe-coding-agent/</loc>
+    <lastmod>2026-05-22T12:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://kklullaby.github.io/projects/quant-trading/</loc>
+    <lastmod>2026-01-27T12:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://kklullaby.github.io/projects/robomaster-yulangzhe/</loc>
+    <lastmod>2026-05-10T12:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://kklullaby.github.io/resume/</loc>
+    <lastmod>2026-06-08T12:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://kklullaby.github.io/</loc>
+    <lastmod>2026-06-08T12:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://kklullaby.github.io/projects/</loc>
+    <lastmod>2026-06-01T12:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://kklullaby.github.io/tags/agent/</loc>
     <lastmod>2026-05-22T10:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://kklullaby.github.io/categories/</loc>
     <lastmod>2026-05-22T10:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://kklullaby.github.io/posts/</loc>
     <lastmod>2026-05-22T10:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://kklullaby.github.io/tags/</loc>
     <lastmod>2026-05-22T10:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://kklullaby.github.io/posts/something_about_tech/some-thoughts-about-coding-agent/</loc>
     <lastmod>2026-05-22T10:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/something_about_tech/some-thoughts-about-coding-agent/</loc>
+    <loc>https://kklullaby.github.io/categories/%E7%A7%91%E6%8A%80/</loc>
     <lastmod>2026-05-22T10:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/%E7%A7%91%E6%8A%80/</loc>
-    <lastmod>2026-05-22T10:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/rm/</loc>
+    <loc>https://kklullaby.github.io/tags/rm/</loc>
     <lastmod>2026-05-07T10:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/my-life/robomaster-ep1/</loc>
+    <loc>https://kklullaby.github.io/series/</loc>
     <lastmod>2026-05-07T10:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/%E7%94%9F%E6%B4%BB/</loc>
+    <loc>https://kklullaby.github.io/series/%E4%B8%8E%E9%A9%AD%E6%B5%AA%E8%80%85%E5%85%B1%E5%BA%A6%E5%A4%BA%E5%86%A0%E4%B9%8B%E8%B7%AF/</loc>
     <lastmod>2026-05-07T10:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/cs101/</loc>
+    <loc>https://kklullaby.github.io/posts/my-life/robomaster-ep1/</loc>
+    <lastmod>2026-05-07T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://kklullaby.github.io/categories/%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2026-05-07T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://kklullaby.github.io/tags/cs101/</loc>
     <lastmod>2026-03-15T10:20:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/cs101summary/master_theorem/</loc>
+    <loc>https://kklullaby.github.io/series/cs101-%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2026-03-15T10:20:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
+    <loc>https://kklullaby.github.io/posts/cs101summary/master_theorem/</loc>
     <lastmod>2026-03-15T10:20:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/vc/</loc>
+    <loc>https://kklullaby.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2026-03-15T10:20:00+08:00</lastmod>
+  </url><url>
+    <loc>https://kklullaby.github.io/tags/vc/</loc>
     <lastmod>2026-01-27T10:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/something_about_tech/first_time_vibe_coding/</loc>
+    <loc>https://kklullaby.github.io/posts/something_about_tech/first_time_vibe_coding/</loc>
     <lastmod>2026-01-27T10:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E8%82%A1%E5%B8%82/</loc>
+    <loc>https://kklullaby.github.io/tags/%E8%82%A1%E5%B8%82/</loc>
     <lastmod>2026-01-27T10:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E5%8D%8E%E4%B8%BA/</loc>
+    <loc>https://kklullaby.github.io/tags/%E5%8D%8E%E4%B8%BA/</loc>
     <lastmod>2026-01-20T10:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/%E6%97%A7%E6%96%87/</loc>
+    <loc>https://kklullaby.github.io/categories/%E6%97%A7%E6%96%87/</loc>
     <lastmod>2026-01-20T10:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/my-life/a-tour-in-huawei/</loc>
+    <loc>https://kklullaby.github.io/posts/my-life/a-tour-in-huawei/</loc>
     <lastmod>2026-01-20T10:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E6%B8%B8%E8%AE%B0/</loc>
+    <loc>https://kklullaby.github.io/tags/%E6%B8%B8%E8%AE%B0/</loc>
     <lastmod>2026-01-20T10:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E5%9B%9E%E5%BF%86%E5%BD%95/</loc>
+    <loc>https://kklullaby.github.io/tags/%E5%9B%9E%E5%BF%86%E5%BD%95/</loc>
     <lastmod>2026-01-19T23:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%B4%BB/</loc>
+    <loc>https://kklullaby.github.io/tags/%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2026-01-19T23:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/my-life/first-time-in-university/</loc>
+    <loc>https://kklullaby.github.io/posts/my-life/first-time-in-university/</loc>
     <lastmod>2026-01-19T23:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://kklullaby.github.io/about/</loc>
     <lastmod>2026-01-19T12:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/links/</loc>
+    <loc>https://kklullaby.github.io/links/</loc>
     <lastmod>2026-01-19T12:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/columns/</loc>
+    <loc>https://kklullaby.github.io/columns/</loc>
     <lastmod>2026-01-19T12:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/aigc/</loc>
+    <loc>https://kklullaby.github.io/categories/aigc/</loc>
     <lastmod>2026-01-12T10:20:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/aigc/</loc>
+    <loc>https://kklullaby.github.io/tags/aigc/</loc>
     <lastmod>2026-01-12T10:20:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/devops/</loc>
+    <loc>https://kklullaby.github.io/tags/devops/</loc>
     <lastmod>2026-01-12T10:20:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/docker/</loc>
+    <loc>https://kklullaby.github.io/tags/docker/</loc>
     <lastmod>2026-01-12T10:20:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/docker-tutorial/</loc>
+    <loc>https://kklullaby.github.io/posts/docker-tutorial/</loc>
     <lastmod>2026-01-12T10:20:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E5%AE%B9%E5%99%A8/</loc>
+    <loc>https://kklullaby.github.io/tags/%E5%AE%B9%E5%99%A8/</loc>
     <lastmod>2026-01-12T10:20:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/</loc>
+    <loc>https://kklullaby.github.io/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2026-01-12T10:20:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/vscode/</loc>
+    <loc>https://kklullaby.github.io/tags/vscode/</loc>
     <lastmod>2026-01-10T16:45:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/vscode-plugins/</loc>
+    <loc>https://kklullaby.github.io/posts/vscode-plugins/</loc>
     <lastmod>2026-01-10T16:45:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E6%8F%92%E4%BB%B6/</loc>
+    <loc>https://kklullaby.github.io/tags/%E6%8F%92%E4%BB%B6/</loc>
     <lastmod>2026-01-10T16:45:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/</loc>
+    <loc>https://kklullaby.github.io/tags/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2026-01-10T16:45:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/series/</loc>
+    <loc>https://kklullaby.github.io/archives/</loc>
   </url><url>
-    <loc>http://localhost:1313/archives/</loc>
+    <loc>https://kklullaby.github.io/search/</loc>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>https://kklullaby.github.io/posts/cs101summary/summary_of_csclass7_25fall/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/cs101summary/summary_of_csclass7_25fall/</loc>
-  </url><url>
-    <loc>http://localhost:1313/posts/cs101summary/summary_of_csclass2_26spring/</loc>
+    <loc>https://kklullaby.github.io/posts/cs101summary/summary_of_csclass2_26spring/</loc>
   </url>
 </urlset>

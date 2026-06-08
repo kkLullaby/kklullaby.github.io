@@ -4,6 +4,7 @@ draft: false
 author: "25届cs一组课代表李凯锋"
 categories: ["学习笔记"]
 tags: ["cs101"]
+series: ["CS101 课程笔记"]
 math: true
 description: "基于徐老师的课件和课堂录播，对课件里的内容进行二次补充"
 summary: "将课堂讲述的知识进行分模块，再在对应模块里面对具体的知识进行二次阐述"

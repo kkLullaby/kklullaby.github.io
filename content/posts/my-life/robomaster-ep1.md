@@ -2,6 +2,7 @@
 title: "与驭浪者共度夺冠之路(上)"
 date: 2026-05-07T10:00:00+08:00
 tags: ["RM"] 
+series: ["与驭浪者共度夺冠之路"]
 author: kkLullaby
 categories: ["生活"]
 draft: false
